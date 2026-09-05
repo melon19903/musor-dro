@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+  <title>Musor Drop</title>
+  <meta name="description" content="CS2 case opening simulator with skins, containers, and live drop tracking." />
+  <meta property="og:title" content="Musor Drop" />
+  <meta property="og:description" content="CS2 case opening simulator with skins, containers, and live drop tracking." />
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#100F12">
+
+  <!-- Standalone Offline Local Engine & Database -->
+  <script src="assets/local-data.js"></script>
+  <script src="assets/local-engine.js"></script>
+
+  <script>
+    // 1. Инициализация Яндекс Игр SDK с автономным fallback эмулятором
+    const mockYsdk = {
+      adv: {
+        showRewardedVideo: (opts) => {
+          console.log('[Yandex SDK Mock] Rewarded ad opened');
+          opts?.callbacks?.onOpen?.();
+          setTimeout(() => {
+            console.log('[Yandex SDK Mock] Rewarded callback fired');
+            opts?.callbacks?.onRewarded?.();
+            opts?.callbacks?.onClose?.();
+          }, 400);
+        },
+        showFullscreenAdv: (opts) => {
+          opts?.callbacks?.onOpen?.();
+          setTimeout(() => opts?.callbacks?.onClose?.(true), 400);
+        }
+      },
+      features: {
+        LoadingAPI: {
+          ready: () => console.log('[Yandex SDK] LoadingAPI ready')
+        },
+        GameplayAPI: {
+          start: () => console.log('[Yandex SDK] Gameplay start'),
+          stop: () => console.log('[Yandex SDK] Gameplay stop')
+        }
+      },
+      environment: {
+        app: { id: "musordrop" },
+        i18n: { lang: "ru", tld: "ru" }
+      },
+      getPlayer: () => Promise.resolve({
+        getName: () => 'Игрок',
+        getPhoto: () => 'assets/apple-touch-icon.png',
+        getUniqueID: () => '1'
+      })
+    };
+
+    window.ysdkInstance = mockYsdk;
+    window.YaGames = {
+      init: () => Promise.resolve(mockYsdk)
+    };
+
+    // Предотвращаем зависание 'loadEnvironment' если SDK где-либо загружен
+    window.loadEnvironmentPromise = Promise.resolve({
+      data: {
+        enviroment: {
+          app: { id: "musordrop" },
+          i18n: { lang: "ru", tld: "ru" },
+          sdkBackendURL: "https://sdk.games.s3.yandex.net"
+        },
+        options: {}
+      }
+    });
+
+    // Загружаем реальный SDK Яндекса ТОЛЬКО если игра действительно запущена во фрейме Яндекс Игр
+    const isYandexHost = (window.self !== window.top) && (
+      window.location.hostname.includes('yandex') ||
+      document.referrer.includes('yandex') ||
+      window.location.search.includes('yandex')
+    );
+
+    if (isYandexHost) {
+      const sdkScript = document.createElement('script');
+      sdkScript.src = 'https://yandex.ru/games/sdk/v2';
+      sdkScript.async = true;
+      sdkScript.onload = () => {
+        if (typeof YaGames !== 'undefined' && YaGames.init) {
+          YaGames.init().then(ysdk => {
+            window.ysdkInstance = ysdk;
+            console.log('[Yandex SDK] Loaded live in Yandex environment');
+            ysdk.features?.LoadingAPI?.ready?.();
+          }).catch(err => {
+            console.warn('[Yandex SDK] Init failed, fallback to mock:', err);
+            window.ysdkInstance = mockYsdk;
+          });
+        }
+      };
+      sdkScript.onerror = () => {
+        console.warn('[Yandex SDK] Script load error, continuing with mock');
+        window.ysdkInstance = mockYsdk;
+      };
+      document.head.appendChild(sdkScript);
+    } else {
+      console.log('[Yandex SDK] Running in standalone local mode');
+    }
+
+    // 2. Аудио-контроллер Мусор Дроп для кейсов
+    (function() {
+      const TRACK_NUMBERS = [1, 2, 3, 4];
+      let trackQueue = [];
+      let lastPlayedTrack = null;
+
+      window.currentCaseMusic = null;
+      window.currentDropAudio = null;
+
+      function shuffle(arr) {
+        const a = [...arr];
+        for (let i = a.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          const temp = a[i];
+          a[i] = a[j];
+          a[j] = temp;
+        }
+        return a;
+      }
+
+      function getNextTrackNumber() {
+        if (trackQueue.length === 0) {
+          let nextRound = shuffle(TRACK_NUMBERS);
+          if (nextRound.length > 1 && nextRound[0] === lastPlayedTrack) {
+            nextRound.push(nextRound.shift());
+          }
+          trackQueue = nextRound;
+        }
+        const picked = trackQueue.shift();
+        lastPlayedTrack = picked;
+        return picked;
+      }
+
+      function isMuted() {
+        try {
+          return localStorage.getItem('sounds_muted') === '1';
+        } catch (e) {
+          return false;
+        }
+      }
+
+      window.playCaseOpenMusic = function() {
+        try {
+          if (isMuted()) return;
+          window.stopCaseOpenMusic();
+
+          const trackNum = getNextTrackNumber();
+          const trackUrl = encodeURI('/assets/musor drop music ' + trackNum + '.mp3');
+          console.log('[Musor Drop] Case opening music track #' + trackNum + ' playing:', trackUrl);
+
+          const audio = new Audio(trackUrl);
+          audio.volume = 0.75;
+          window.currentCaseMusic = audio;
+
+          const p = audio.play();
+          if (p && typeof p.catch === 'function') {
+            p.catch(e => console.warn('[Musor Drop] Case music play error:', e));
+          }
+        } catch (e) {
+          console.error('[Musor Drop] Error in playCaseOpenMusic:', e);
+        }
+      };
+
+      window.stopCaseOpenMusic = function() {
+        try {
+          if (window.currentCaseMusic) {
+            window.currentCaseMusic.pause();
+            window.currentCaseMusic.currentTime = 0;
+            window.currentCaseMusic = null;
+          }
+        } catch (e) {
+          console.error('[Musor Drop] Error in stopCaseOpenMusic:', e);
+        }
+      };
+
+      window.playCaseDropSound = function() {
+        try {
+          if (isMuted()) return;
+          window.stopCaseOpenMusic();
+
+          const dropUrl = encodeURI('/assets/musor drop sound effect (выподения скина при открытии кейса).mp3');
+          console.log('[Musor Drop] Win skin drop sound playing:', dropUrl);
+
+          if (window.currentDropAudio) {
+            try {
+              window.currentDropAudio.pause();
+              window.currentDropAudio.currentTime = 0;
+            } catch (e) {}
+          }
+
+          const dropAudio = new Audio(dropUrl);
+          dropAudio.volume = 0.9;
+          window.currentDropAudio = dropAudio;
+
+          const p = dropAudio.play();
+          if (p && typeof p.catch === 'function') {
+            p.catch(e => console.warn('[Musor Drop] Win sound play error:', e));
+          }
+        } catch (e) {
+          console.error('[Musor Drop] Error in playCaseDropSound:', e);
+        }
+      };
+    })();
+
+    // 3. Баланс и просмотр рекламы за 5000 монет
+    window.GameState = {
+      balance: parseInt(localStorage.getItem('game_balance') || '5000'),
+      openedCount: parseInt(localStorage.getItem('game_opened_count') || '0'),
+
+      addBalance(amount) {
+        this.balance += amount;
+        localStorage.setItem('game_balance', this.balance);
+      },
+      incrementOpens() {
+        this.openedCount++;
+        localStorage.setItem('game_opened_count', this.openedCount);
+        if (window.onCaseOpenAction) {
+          window.onCaseOpenAction();
+        }
+      }
+    };
+
+    // 4. Менеджер рекламного баннера Мусор Дроп с таймером 5 минут и прогрессивным шансом
+    window.MemeAdManager = {
+      COOLDOWN_MS: 5 * 60 * 1000, // 5 минут между показами рекламы
+      _lastActionTime: 0,
+      _pendingAdTrigger: false,
+
+      getLastAdTime() {
+        try {
+          return parseInt(localStorage.getItem('meme_ad_last_shown') || '0', 10);
+        } catch (e) {
+          return 0;
+        }
+      },
+
+      setLastAdTime(ts) {
+        try {
+          localStorage.setItem('meme_ad_last_shown', String(ts));
+        } catch (e) {}
+      },
+
+      getCycleOpens() {
+        try {
+          return parseInt(localStorage.getItem('meme_ad_cycle_opens') || '0', 10);
+        } catch (e) {
+          return 0;
+        }
+      },
+
+      setCycleOpens(count) {
+        try {
+          localStorage.setItem('meme_ad_cycle_opens', String(count));
+        } catch (e) {}
+      },
+
+      // Вызывается 1 раз при нажатии кнопки открытия кейса (даже если выбран режим x5)
+      registerCaseOpen() {
+        const now = Date.now();
+        // Защита: считаем только 1 нажатие открыть кейс (не чаще 1 раза за 2.5 сек)
+        if (now - this._lastActionTime < 2500) {
+          return;
+        }
+        this._lastActionTime = now;
+        this._pendingAdTrigger = false;
+
+        const lastAdTime = this.getLastAdTime();
+        const timeSinceLastAd = now - lastAdTime;
+
+        // Ограничение 4: реклама не может вылезти если не прошло 5 минут с момента прошлой рекламы
+        if (lastAdTime > 0 && timeSinceLastAd < this.COOLDOWN_MS) {
+          const remainingSec = Math.ceil((this.COOLDOWN_MS - timeSinceLastAd) / 1000);
+          console.log('[MemeAd] Кулдаун 5 минут активен, осталось ' + remainingSec + ' сек. Открытия не идут в счетчик цикла.');
+          return;
+        }
+
+        // Ограничение 5: после окончания таймера (5 минут) открытия считаются с самого начала
+        let currentOpens = this.getCycleOpens() + 1;
+        this.setCycleOpens(currentOpens);
+        console.log('[MemeAd] Засчитано открытие кейса #' + currentOpens + ' в текущем цикле');
+
+        // Ограничения 1 и 2:
+        // До 5 открытий - 0%
+        // 5 открытие - 10%
+        // 6 открытие - 20%
+        // 7 открытие - 40%
+        // 8 открытие - 80%
+        // 9+ открытие - 100%
+        let chance = 0;
+        if (currentOpens < 5) {
+          chance = 0;
+        } else if (currentOpens === 5) {
+          chance = 0.10;
+        } else if (currentOpens === 6) {
+          chance = 0.20;
+        } else if (currentOpens === 7) {
+          chance = 0.40;
+        } else if (currentOpens === 8) {
+          chance = 0.80;
+        } else {
+          chance = 1.00;
+        }
+
+        const roll = Math.random();
+        console.log('[MemeAd] Шанс показа: ' + (chance * 100) + '%, бросок: ' + roll.toFixed(3));
+
+        if (roll < chance) {
+          console.log('[MemeAd] Реклама Мусор Дроп выпала! Будет показана после завершения открытия кейса.');
+          this._pendingAdTrigger = true;
+          // Сбрасываем открытия на 0 и запускаем 5-минутный кулдаун
+          this.setCycleOpens(0);
+          this.setLastAdTime(now);
+        }
+      },
+
+      // Вызывается после выпадения скина и завершения прокрутки рулетки
+      onCaseCompleted() {
+        if (this._pendingAdTrigger) {
+          this._pendingAdTrigger = false;
+          // Показываем мем через 1.2 секунды после звука выпадения, чтобы игрок успел порадоваться дропу
+          setTimeout(() => {
+            showMemeAd();
+          }, 1200);
+        }
+      }
+    };
+
+    window.onCaseOpenAction = function() {
+      if (window.MemeAdManager) {
+        window.MemeAdManager.registerCaseOpen();
+      }
+    };
+
+    window.onCaseDropFinished = function() {
+      if (window.MemeAdManager) {
+        window.MemeAdManager.onCaseCompleted();
+      }
+    };
+
+    // Открытие окна "Заработать+"
+    window.openEarnModal = function() {
+      const modal = document.getElementById('earn-coins-modal');
+      if (modal) {
+        modal.style.display = 'flex';
+      }
+    };
+
+    window.closeEarnModal = function() {
+      const modal = document.getElementById('earn-coins-modal');
+      if (modal) {
+        modal.style.display = 'none';
+      }
+    };
+
+    // Просмотр рекламы и начисление 5000 монет
+    window.watchAdFor5000Coins = function() {
+      const sdk = window.ysdkInstance || mockYsdk;
+      const btn = document.getElementById('earn-ad-green-btn');
+      if (btn) btn.style.opacity = '0.5';
+
+      function onRewardedSuccess() {
+        GameState.addBalance(5000);
+        
+        // Оповещаем бэкенд
+        fetch('/api/v1/user/reward_coins', { method: 'POST' }).catch(() => {});
+
+        // Закрываем окно
+        window.closeEarnModal();
+        if (btn) btn.style.opacity = '1';
+
+        // Обновляем React состояние
+        if (typeof window.reactUpdateProfile === 'function') {
+          window.reactUpdateProfile();
+        } else {
+          // Fallback reload если React ещё не привязал хук
+          setTimeout(() => location.reload(), 150);
+        }
+
+        // Всплывающее уведомление
+        showRewardToast('+5 000 койнов зачислено!');
+      }
+
+      if (sdk && sdk.adv && typeof sdk.adv.showRewardedVideo === 'function') {
+        sdk.adv.showRewardedVideo({
+          callbacks: {
+            onOpen: () => {
+              window.stopCaseOpenMusic();
+            },
+            onRewarded: () => {
+              onRewardedSuccess();
+            },
+            onClose: () => {
+              if (btn) btn.style.opacity = '1';
+            },
+            onError: (err) => {
+              console.warn('Ad error, granting reward fallback:', err);
+              onRewardedSuccess();
+            }
+          }
+        });
+      } else {
+        onRewardedSuccess();
+      }
+    };
+
+    function showRewardToast(text) {
+      const toast = document.createElement('div');
+      toast.innerText = text;
+      toast.style.cssText = 'position: fixed; top: 24px; left: 50%; transform: translateX(-50%); background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 14px 28px; border-radius: 100px; font-weight: 700; font-size: 16px; box-shadow: 0 10px 30px rgba(16,185,129,0.5); z-index: 9999999; font-family: sans-serif; pointer-events: none; animation: toastFade 2.5s forwards;';
+      document.body.appendChild(toast);
+      setTimeout(() => toast.remove(), 2500);
+    }
+
+    // Аудио дорожка для видео-мема Мусор Дроп (musor drop video.mp3)
+    let memeVideoAudio = null;
+
+    function getMemeVideoAudio() {
+      if (!memeVideoAudio) {
+        memeVideoAudio = new Audio(encodeURI('/assets/musor drop video.mp3'));
+        memeVideoAudio.volume = 0.95;
+        memeVideoAudio.loop = true;
+      }
+      return memeVideoAudio;
+    }
+
+    // Мем "Мусор Дроп"
+    window.showMemeAd = function() {
+      const overlay = document.getElementById('meme-ad-overlay');
+      const video = document.getElementById('meme-video');
+      const btn = document.getElementById('meme-ad-skip-btn');
+      if (overlay) overlay.style.display = 'flex';
+      if (btn) {
+        btn.innerText = 'Пропустить рекламу';
+        btn.style.opacity = '1';
+        btn.style.pointerEvents = 'auto';
+      }
+
+      // Глушим фоновую музыку кейсов, если играла
+      if (typeof window.stopCaseOpenMusic === 'function') {
+        window.stopCaseOpenMusic();
+      }
+
+      const audio = getMemeVideoAudio();
+      audio.currentTime = 0;
+      audio.play().catch(e => console.log('[Musor Drop] Meme audio notice:', e));
+
+      if (video) {
+        video.currentTime = 0;
+        video.muted = false;
+        video.volume = 0.9;
+
+        // Синхронизируем звук .mp3 с воспроизведением видео .mp4
+        video.onplay = () => {
+          audio.currentTime = video.currentTime;
+          audio.play().catch(() => {});
+        };
+        video.onpause = () => {
+          audio.pause();
+        };
+        video.ontimeupdate = () => {
+          if (Math.abs(audio.currentTime - video.currentTime) > 0.35) {
+            audio.currentTime = video.currentTime;
+          }
+        };
+
+        const p = video.play();
+        if (p && typeof p.catch === 'function') {
+          p.catch(() => {
+            // Если браузер блокирует автоплей со звуком без прямого тапа на видео
+            video.muted = true;
+            video.play().catch(() => {});
+          });
+        }
+      }
+    };
+
+    // При нажатии "Пропустить рекламу" запускается реклама Яндекса (SDK)
+    window.closeMemeAd = function() {
+      const btn = document.getElementById('meme-ad-skip-btn');
+      const video = document.getElementById('meme-video');
+      if (video) video.pause();
+      if (memeVideoAudio) {
+        memeVideoAudio.pause();
+        memeVideoAudio.currentTime = 0;
+      }
+
+      if (btn) {
+        btn.innerText = 'Запуск рекламы Яндекса...';
+        btn.style.opacity = '0.7';
+        btn.style.pointerEvents = 'none';
+      }
+
+      function reallyClose() {
+        const overlay = document.getElementById('meme-ad-overlay');
+        if (overlay) overlay.style.display = 'none';
+        if (video) {
+          video.pause();
+          video.currentTime = 0;
+        }
+        if (memeVideoAudio) {
+          memeVideoAudio.pause();
+          memeVideoAudio.currentTime = 0;
+        }
+        if (btn) {
+          btn.innerText = 'Пропустить рекламу';
+          btn.style.opacity = '1';
+          btn.style.pointerEvents = 'auto';
+        }
+      }
+
+      const sdk = window.ysdkInstance || window.mockYsdk;
+      if (sdk && sdk.adv && typeof sdk.adv.showFullscreenAdv === 'function') {
+        sdk.adv.showFullscreenAdv({
+          callbacks: {
+            onOpen: () => {
+              console.log('[Musor Drop] Открыта реклама Яндекса при нажатии закрыть баннер');
+            },
+            onClose: (wasShown) => {
+              console.log('[Musor Drop] Реклама Яндекса закрыта, теперь закрываем баннер');
+              reallyClose();
+            },
+            onError: (err) => {
+              console.warn('[Musor Drop] Ошибка рекламы Яндекса, закрываем fallback:', err);
+              reallyClose();
+            }
+          }
+        });
+      } else if (sdk && sdk.adv && typeof sdk.adv.showRewardedVideo === 'function') {
+        sdk.adv.showRewardedVideo({
+          callbacks: {
+            onClose: () => reallyClose(),
+            onError: () => reallyClose()
+          }
+        });
+      } else {
+        reallyClose();
+      }
+    };
+
+    // Перехват битых картинок на лету
+    window.addEventListener('error', function(e) {
+      if (e.target && e.target.tagName === 'IMG') {
+        e.target.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Crect width='100%25' height='100%25' fill='%231f132b'/%3E%3C/svg%3E";
+      }
+    }, true);
+  </script>
+
+  <style>
+    @keyframes toastFade {
+      0% { opacity: 0; transform: translate(-50%, -20px); }
+      15% { opacity: 1; transform: translate(-50%, 0); }
+      85% { opacity: 1; transform: translate(-50%, 0); }
+      100% { opacity: 0; transform: translate(-50%, -20px); }
+    }
+
+    /* Модальное окно Заработать+ */
+    #earn-coins-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(6, 3, 10, 0.78);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      z-index: 999999;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    .earn-modal-card {
+      position: relative;
+      background: radial-gradient(130% 120% at 50% 0%, #251b3a 0%, #110b1a 100%);
+      border: 1px solid rgba(175, 127, 247, 0.28);
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.85), 0 0 35px rgba(138, 96, 200, 0.2);
+      border-radius: 28px;
+      width: 100%;
+      max-width: 350px;
+      padding: 32px 24px 28px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      animation: modalPop 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    @keyframes modalPop {
+      0% { opacity: 0; transform: scale(0.92) translateY(8px); }
+      100% { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    .earn-modal-close {
+      position: absolute;
+      top: 14px;
+      right: 16px;
+      background: rgba(255, 255, 255, 0.08);
+      border: none;
+      color: #dfd8ea;
+      font-size: 20px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .earn-modal-close:hover {
+      background: rgba(255, 255, 255, 0.18);
+      color: #ffffff;
+    }
+
+    .earn-coins-img {
+      width: 170px;
+      height: auto;
+      margin-bottom: 8px;
+      filter: drop-shadow(0 8px 20px rgba(251, 191, 36, 0.4));
+      user-select: none;
+    }
+
+    .earn-modal-amount {
+      font-size: 30px;
+      font-weight: 800;
+      color: #ffd700;
+      text-shadow: 0 0 16px rgba(255, 215, 0, 0.55);
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .earn-modal-subtitle {
+      font-size: 15px;
+      font-weight: 600;
+      color: #e9d8ff;
+      opacity: 0.85;
+      margin-bottom: 24px;
+    }
+
+    /* Зеленый квадрат с закругленными углами */
+    .earn-green-square-btn {
+      width: 82px;
+      height: 82px;
+      border-radius: 20px;
+      background: linear-gradient(135deg, #22c55e 0%, #15803d 100%);
+      border: 2px solid #86efac;
+      box-shadow: 0 8px 26px rgba(34, 197, 94, 0.45);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: transform 0.15s ease, filter 0.15s ease, box-shadow 0.15s ease;
+      outline: none;
+    }
+
+    .earn-green-square-btn:hover {
+      transform: scale(1.06);
+      filter: brightness(1.15);
+      box-shadow: 0 10px 30px rgba(34, 197, 94, 0.6);
+    }
+
+    .earn-green-square-btn:active {
+      transform: scale(0.96);
+    }
+
+    .earn-green-square-btn svg {
+      width: 36px;
+      height: 36px;
+      fill: #ffffff;
+      margin-left: 4px; /* центрирование стрелки плеера */
+    }
+  </style>
+
+  <!-- Standalone Script & Styles (works directly in browser, file:// and web) -->
+  <link rel="stylesheet" href="assets/index-D4mM-3Kr.css">
+  <script defer src="assets/app-standalone.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <!-- Окно "Заработать+" при нажатии (Требование 5) -->
+  <div id="earn-coins-modal" onclick="if(event.target === this) closeEarnModal()">
+    <div class="earn-modal-card" id="earn-coins-card">
+      <button class="earn-modal-close" onclick="closeEarnModal()" aria-label="Закрыть">✕</button>
+      
+      <!-- Сверху картинка койнов -->
+      <img src="assets/coins.png" alt="Койны" class="earn-coins-img" id="earn-coins-image" />
+      
+      <!-- Снизу текст 5к койнов -->
+      <div class="earn-modal-amount" id="earn-coins-amount">5к койнов</div>
+      
+      <!-- Ниже текст посмотреть рекламу -->
+      <div class="earn-modal-subtitle" id="earn-coins-desc">посмотреть рекламу</div>
+      
+      <!-- Под текстом зеленый квадрат с закругленными углами -->
+      <button class="earn-green-square-btn" id="earn-ad-green-btn" onclick="watchAdFor5000Coins()" title="Смотреть рекламу">
+        <svg viewBox="0 0 24 24">
+          <polygon points="7,4 20,12 7,20" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Рекламный баннер Мусор Дроп (16:9, горизонтально) -->
+  <div id="meme-ad-overlay" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.94); z-index: 999999; justify-content: center; align-items: center; flex-direction: column; padding: 16px; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);">
+    <!-- Горизонтальная карточка 16:9 без текста сверху -->
+    <div id="meme-ad-card" style="width: 92vw; max-width: 640px; aspect-ratio: 16 / 9; background: #000; border: 2px solid #a855f7; border-radius: 16px; overflow: hidden; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 35px rgba(168, 85, 247, 0.45); position: relative;">
+      <video id="meme-video" src="/assets/musordrop video.mp4" style="width: 100%; height: 100%; object-fit: contain; background: #000;" loop playsinline></video>
+    </div>
+
+    <!-- Кнопка Пропустить рекламу (можно нажать в любой момент, запускает SDK Яндекса) -->
+    <button id="meme-ad-skip-btn" onclick="closeMemeAd()" style="margin-top: 22px; padding: 14px 38px; background: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%); color: #fff; border: 1px solid rgba(255,255,255,0.25); border-radius: 12px; font-size: 16px; font-weight: 700; cursor: pointer; transition: transform 0.15s, filter 0.15s; box-shadow: 0 8px 24px rgba(168,85,247,0.35); outline: none;">
+      Пропустить рекламу
+    </button>
+  </div>
+</body>
+
+</html>

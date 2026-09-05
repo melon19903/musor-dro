@@ -1,0 +1,1 @@
+var e=`/assets/magnifier-DL8ODyel.gif`;export{e as t};

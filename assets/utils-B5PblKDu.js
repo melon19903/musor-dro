@@ -1,0 +1,1 @@
+import{a as e}from"./utils-6BjkhUFY.js";function t(t,n){navigator.clipboard.writeText(t),e.create({description:n,type:`success`})}function n(e){return Math.trunc(e).toString().replace(/\B(?=(\d{3})+(?!\d))/g,` `)}function r(e,t=16,n=4){return e.length<=t+n+1?e:`${e.slice(0,t)}…${e.slice(-n)}`}var i=/^[!-~]{10,64}$/;export{r as i,t as n,n as r,i as t};

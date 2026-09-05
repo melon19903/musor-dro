@@ -1,0 +1,1 @@
+var e={USD:`$`,RUB:`₽`},t={USD:`en-US`,RUB:`ru-RU`};function n(e,t){return t===`RUB`?e.price_rub:e.price_usd}function r(e,t){return t===`RUB`?e.price_rub:e.price_usd}function i(n,r){let i=(n/100).toLocaleString(t[r],{minimumFractionDigits:0,maximumFractionDigits:2});return r===`USD`?`${e[r]}${i}`:`${i} ${e[r]}`}export{r as i,n,i as r,e as t};

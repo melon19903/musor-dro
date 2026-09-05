@@ -1,0 +1,3963 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "ru": "Случайный код красный",
+      "en": "Случайный код красный"
+    },
+    "price": 150,
+    "price_usd": 15000,
+    "old_price": 300,
+    "discount": 50,
+    "image_url": "assets/Случайный код красный.webp",
+    "skins": [
+      {
+        "uuid": "skin-yq6dxvf9",
+        "chance": 6.25,
+        "original_price": 1070,
+        "data": {
+          "id": 651559,
+          "uuid": "skin-yq6dxvf9",
+          "image_url": "assets/skins/skin_651559.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Desert Eagle | Code Red",
+            "en": "Desert Eagle | Code Red"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Desert Eagle",
+              "en": "Desert Eagle"
+            },
+            "skin_name": {
+              "ru": "Code Red",
+              "en": "Code Red"
+            }
+          },
+          "price": 1070,
+          "price_usd": 1070,
+          "price_rub": 1070
+        },
+        "skin": {
+          "id": 216169,
+          "uuid": "skin-yq6dxvf9",
+          "image_url": "assets/skins/skin_651559.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Desert Eagle | Code Red",
+            "en": "Desert Eagle | Code Red"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Desert Eagle",
+              "en": "Desert Eagle"
+            },
+            "skin_name": {
+              "ru": "Code Red",
+              "en": "Code Red"
+            }
+          },
+          "price": 1070,
+          "price_usd": 1070,
+          "price_rub": 1070
+        }
+      },
+      {
+        "uuid": "skin-x4jive5k",
+        "chance": 6.25,
+        "original_price": 3077,
+        "data": {
+          "id": 893453,
+          "uuid": "skin-x4jive5k",
+          "image_url": "assets/skins/skin_893453.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Specialist Gloves | Crimson Web",
+            "en": "Specialist Gloves | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Specialist Gloves",
+              "en": "Specialist Gloves"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 3077,
+          "price_usd": 3077,
+          "price_rub": 3077
+        },
+        "skin": {
+          "id": 116842,
+          "uuid": "skin-x4jive5k",
+          "image_url": "assets/skins/skin_893453.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Specialist Gloves | Crimson Web",
+            "en": "Specialist Gloves | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Specialist Gloves",
+              "en": "Specialist Gloves"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 3077,
+          "price_usd": 3077,
+          "price_rub": 3077
+        }
+      },
+      {
+        "uuid": "skin-qy1k71bw",
+        "chance": 6.25,
+        "original_price": 2976,
+        "data": {
+          "id": 744374,
+          "uuid": "skin-qy1k71bw",
+          "image_url": "assets/skins/skin_744374.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Bayonet | Crimson Web",
+            "en": "Bayonet | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Bayonet",
+              "en": "Bayonet"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 2976,
+          "price_usd": 2976,
+          "price_rub": 2976
+        },
+        "skin": {
+          "id": 263059,
+          "uuid": "skin-qy1k71bw",
+          "image_url": "assets/skins/skin_744374.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Bayonet | Crimson Web",
+            "en": "Bayonet | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Bayonet",
+              "en": "Bayonet"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 2976,
+          "price_usd": 2976,
+          "price_rub": 2976
+        }
+      },
+      {
+        "uuid": "skin-3xhgl7km",
+        "chance": 6.25,
+        "original_price": 4362,
+        "data": {
+          "id": 751339,
+          "uuid": "skin-3xhgl7km",
+          "image_url": "assets/skins/skin_751339.png",
+          "rarity": "rarity_rare_weapon",
+          "name": {
+            "ru": "CZ75-Auto | Crimson Web",
+            "en": "CZ75-Auto | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "CZ75-Auto",
+              "en": "CZ75-Auto"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 4362,
+          "price_usd": 4362,
+          "price_rub": 4362
+        },
+        "skin": {
+          "id": 605786,
+          "uuid": "skin-3xhgl7km",
+          "image_url": "assets/skins/skin_751339.png",
+          "rarity": "rarity_rare_weapon",
+          "name": {
+            "ru": "CZ75-Auto | Crimson Web",
+            "en": "CZ75-Auto | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "CZ75-Auto",
+              "en": "CZ75-Auto"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 4362,
+          "price_usd": 4362,
+          "price_rub": 4362
+        }
+      },
+      {
+        "uuid": "skin-3bnkdrgx",
+        "chance": 6.25,
+        "original_price": 609,
+        "data": {
+          "id": 578006,
+          "uuid": "skin-3bnkdrgx",
+          "image_url": "assets/skins/skin_578006.png",
+          "rarity": "rarity_mythical_weapon",
+          "name": {
+            "ru": "Desert Eagle | Crimson Web",
+            "en": "Desert Eagle | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Desert Eagle",
+              "en": "Desert Eagle"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 609,
+          "price_usd": 609,
+          "price_rub": 609
+        },
+        "skin": {
+          "id": 777469,
+          "uuid": "skin-3bnkdrgx",
+          "image_url": "assets/skins/skin_578006.png",
+          "rarity": "rarity_mythical_weapon",
+          "name": {
+            "ru": "Desert Eagle | Crimson Web",
+            "en": "Desert Eagle | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Desert Eagle",
+              "en": "Desert Eagle"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 609,
+          "price_usd": 609,
+          "price_rub": 609
+        }
+      },
+      {
+        "uuid": "skin-s757depz",
+        "chance": 6.25,
+        "original_price": 5431,
+        "data": {
+          "id": 467163,
+          "uuid": "skin-s757depz",
+          "image_url": "assets/skins/skin_467163.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Butterfly Knife | Crimson Web",
+            "en": "Butterfly Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Butterfly Knife",
+              "en": "Butterfly Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 5431,
+          "price_usd": 5431,
+          "price_rub": 5431
+        },
+        "skin": {
+          "id": 267316,
+          "uuid": "skin-s757depz",
+          "image_url": "assets/skins/skin_467163.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Butterfly Knife | Crimson Web",
+            "en": "Butterfly Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Butterfly Knife",
+              "en": "Butterfly Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 5431,
+          "price_usd": 5431,
+          "price_rub": 5431
+        }
+      },
+      {
+        "uuid": "skin-fhrvy9c9",
+        "chance": 6.25,
+        "original_price": 4998,
+        "data": {
+          "id": 840089,
+          "uuid": "skin-fhrvy9c9",
+          "image_url": "assets/skins/skin_840089.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Survival Knife | Crimson Web",
+            "en": "Survival Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Survival Knife",
+              "en": "Survival Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 4998,
+          "price_usd": 4998,
+          "price_rub": 4998
+        },
+        "skin": {
+          "id": 118217,
+          "uuid": "skin-fhrvy9c9",
+          "image_url": "assets/skins/skin_840089.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Survival Knife | Crimson Web",
+            "en": "Survival Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Survival Knife",
+              "en": "Survival Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 4998,
+          "price_usd": 4998,
+          "price_rub": 4998
+        }
+      },
+      {
+        "uuid": "skin-xlhijowb",
+        "chance": 6.25,
+        "original_price": 4813,
+        "data": {
+          "id": 266070,
+          "uuid": "skin-xlhijowb",
+          "image_url": "assets/skins/skin_266070.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Paracord Knife | Crimson Web",
+            "en": "Paracord Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Paracord Knife",
+              "en": "Paracord Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 4813,
+          "price_usd": 4813,
+          "price_rub": 4813
+        },
+        "skin": {
+          "id": 828079,
+          "uuid": "skin-xlhijowb",
+          "image_url": "assets/skins/skin_266070.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Paracord Knife | Crimson Web",
+            "en": "Paracord Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Paracord Knife",
+              "en": "Paracord Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 4813,
+          "price_usd": 4813,
+          "price_rub": 4813
+        }
+      },
+      {
+        "uuid": "skin-4bmk1b7t",
+        "chance": 6.25,
+        "original_price": 2623,
+        "data": {
+          "id": 455911,
+          "uuid": "skin-4bmk1b7t",
+          "image_url": "assets/skins/skin_455911.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Classic Knife | Crimson Web",
+            "en": "Classic Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Classic Knife",
+              "en": "Classic Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 2623,
+          "price_usd": 2623,
+          "price_rub": 2623
+        },
+        "skin": {
+          "id": 450617,
+          "uuid": "skin-4bmk1b7t",
+          "image_url": "assets/skins/skin_455911.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Classic Knife | Crimson Web",
+            "en": "Classic Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Classic Knife",
+              "en": "Classic Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 2623,
+          "price_usd": 2623,
+          "price_rub": 2623
+        }
+      },
+      {
+        "uuid": "skin-5xa9ss9i",
+        "chance": 6.25,
+        "original_price": 3021,
+        "data": {
+          "id": 292929,
+          "uuid": "skin-5xa9ss9i",
+          "image_url": "assets/skins/skin_292929.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Falchion Knife | Crimson Web",
+            "en": "Falchion Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Falchion Knife",
+              "en": "Falchion Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 3021,
+          "price_usd": 3021,
+          "price_rub": 3021
+        },
+        "skin": {
+          "id": 138598,
+          "uuid": "skin-5xa9ss9i",
+          "image_url": "assets/skins/skin_292929.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Falchion Knife | Crimson Web",
+            "en": "Falchion Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Falchion Knife",
+              "en": "Falchion Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 3021,
+          "price_usd": 3021,
+          "price_rub": 3021
+        }
+      },
+      {
+        "uuid": "skin-w3s3syiw",
+        "chance": 6.25,
+        "original_price": 3954,
+        "data": {
+          "id": 896047,
+          "uuid": "skin-w3s3syiw",
+          "image_url": "assets/skins/skin_896047.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Flip Knife | Crimson Web",
+            "en": "Flip Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Flip Knife",
+              "en": "Flip Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 3954,
+          "price_usd": 3954,
+          "price_rub": 3954
+        },
+        "skin": {
+          "id": 330364,
+          "uuid": "skin-w3s3syiw",
+          "image_url": "assets/skins/skin_896047.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Flip Knife | Crimson Web",
+            "en": "Flip Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Flip Knife",
+              "en": "Flip Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 3954,
+          "price_usd": 3954,
+          "price_rub": 3954
+        }
+      },
+      {
+        "uuid": "skin-2x9y7oly",
+        "chance": 6.25,
+        "original_price": 4411,
+        "data": {
+          "id": 317455,
+          "uuid": "skin-2x9y7oly",
+          "image_url": "assets/skins/skin_317455.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Gut Knife | Crimson Web",
+            "en": "Gut Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Gut Knife",
+              "en": "Gut Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 4411,
+          "price_usd": 4411,
+          "price_rub": 4411
+        },
+        "skin": {
+          "id": 314565,
+          "uuid": "skin-2x9y7oly",
+          "image_url": "assets/skins/skin_317455.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Gut Knife | Crimson Web",
+            "en": "Gut Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Gut Knife",
+              "en": "Gut Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 4411,
+          "price_usd": 4411,
+          "price_rub": 4411
+        }
+      },
+      {
+        "uuid": "skin-75kty7xt",
+        "chance": 6.25,
+        "original_price": 2358,
+        "data": {
+          "id": 712106,
+          "uuid": "skin-75kty7xt",
+          "image_url": "assets/skins/skin_712106.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Navaja Knife | Crimson Web",
+            "en": "Navaja Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Navaja Knife",
+              "en": "Navaja Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 2358,
+          "price_usd": 2358,
+          "price_rub": 2358
+        },
+        "skin": {
+          "id": 151877,
+          "uuid": "skin-75kty7xt",
+          "image_url": "assets/skins/skin_712106.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Navaja Knife | Crimson Web",
+            "en": "Navaja Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Navaja Knife",
+              "en": "Navaja Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 2358,
+          "price_usd": 2358,
+          "price_rub": 2358
+        }
+      },
+      {
+        "uuid": "skin-sew0ltlv",
+        "chance": 6.25,
+        "original_price": 3032,
+        "data": {
+          "id": 205784,
+          "uuid": "skin-sew0ltlv",
+          "image_url": "assets/skins/skin_205784.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Karambit | Crimson Web",
+            "en": "Karambit | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Karambit",
+              "en": "Karambit"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 3032,
+          "price_usd": 3032,
+          "price_rub": 3032
+        },
+        "skin": {
+          "id": 420191,
+          "uuid": "skin-sew0ltlv",
+          "image_url": "assets/skins/skin_205784.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Karambit | Crimson Web",
+            "en": "Karambit | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Karambit",
+              "en": "Karambit"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 3032,
+          "price_usd": 3032,
+          "price_rub": 3032
+        }
+      },
+      {
+        "uuid": "skin-3le7m357",
+        "chance": 6.25,
+        "original_price": 1734,
+        "data": {
+          "id": 169047,
+          "uuid": "skin-3le7m357",
+          "image_url": "assets/skins/skin_169047.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Kukri Knife | Crimson Web",
+            "en": "Kukri Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Kukri Knife",
+              "en": "Kukri Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 1734,
+          "price_usd": 1734,
+          "price_rub": 1734
+        },
+        "skin": {
+          "id": 373850,
+          "uuid": "skin-3le7m357",
+          "image_url": "assets/skins/skin_169047.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Kukri Knife | Crimson Web",
+            "en": "Kukri Knife | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Kukri Knife",
+              "en": "Kukri Knife"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 1734,
+          "price_usd": 1734,
+          "price_rub": 1734
+        }
+      },
+      {
+        "uuid": "skin-wzl69jjc",
+        "chance": 6.25,
+        "original_price": 1114,
+        "data": {
+          "id": 393239,
+          "uuid": "skin-wzl69jjc",
+          "image_url": "assets/skins/skin_393239.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "M9 Bayonet | Crimson Web",
+            "en": "M9 Bayonet | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M9 Bayonet",
+              "en": "M9 Bayonet"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 1114,
+          "price_usd": 1114,
+          "price_rub": 1114
+        },
+        "skin": {
+          "id": 507715,
+          "uuid": "skin-wzl69jjc",
+          "image_url": "assets/skins/skin_393239.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "M9 Bayonet | Crimson Web",
+            "en": "M9 Bayonet | Crimson Web"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M9 Bayonet",
+              "en": "M9 Bayonet"
+            },
+            "skin_name": {
+              "ru": "Crimson Web",
+              "en": "Crimson Web"
+            }
+          },
+          "price": 1114,
+          "price_usd": 1114,
+          "price_rub": 1114
+        }
+      }
+    ],
+    "price_rub": 15000,
+    "normal_price_usd": 15000,
+    "normal_price_rub": 15000
+  },
+  {
+    "id": 2,
+    "name": {
+      "ru": "Худший или Лучший",
+      "en": "Худший или Лучший"
+    },
+    "price": 250,
+    "price_usd": 25000,
+    "old_price": 500,
+    "discount": 50,
+    "image_url": "assets/Худший или Лучший.webp",
+    "skins": [
+      {
+        "uuid": "skin-dhwdt6dw",
+        "chance": 6.25,
+        "original_price": 2250,
+        "data": {
+          "id": 383430,
+          "uuid": "skin-dhwdt6dw",
+          "image_url": "assets/skins/skin_383430.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Dragon Lore",
+            "en": "AWP | Dragon Lore"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Dragon Lore",
+              "en": "Dragon Lore"
+            }
+          },
+          "price": 2250,
+          "price_usd": 2250,
+          "price_rub": 2250
+        },
+        "skin": {
+          "id": 244287,
+          "uuid": "skin-dhwdt6dw",
+          "image_url": "assets/skins/skin_383430.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Dragon Lore",
+            "en": "AWP | Dragon Lore"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Dragon Lore",
+              "en": "Dragon Lore"
+            }
+          },
+          "price": 2250,
+          "price_usd": 2250,
+          "price_rub": 2250
+        }
+      },
+      {
+        "uuid": "skin-z5601gmf",
+        "chance": 6.25,
+        "original_price": 4013,
+        "data": {
+          "id": 833068,
+          "uuid": "skin-z5601gmf",
+          "image_url": "assets/skins/skin_833068.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "M4A4 | Howl",
+            "en": "M4A4 | Howl"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M4A4",
+              "en": "M4A4"
+            },
+            "skin_name": {
+              "ru": "Howl",
+              "en": "Howl"
+            }
+          },
+          "price": 4013,
+          "price_usd": 4013,
+          "price_rub": 4013
+        },
+        "skin": {
+          "id": 226057,
+          "uuid": "skin-z5601gmf",
+          "image_url": "assets/skins/skin_833068.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "M4A4 | Howl",
+            "en": "M4A4 | Howl"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M4A4",
+              "en": "M4A4"
+            },
+            "skin_name": {
+              "ru": "Howl",
+              "en": "Howl"
+            }
+          },
+          "price": 4013,
+          "price_usd": 4013,
+          "price_rub": 4013
+        }
+      },
+      {
+        "uuid": "skin-k28arivz",
+        "chance": 6.25,
+        "original_price": 4629,
+        "data": {
+          "id": 774998,
+          "uuid": "skin-k28arivz",
+          "image_url": "assets/skins/skin_774998.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Gungnir",
+            "en": "AWP | Gungnir"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Gungnir",
+              "en": "Gungnir"
+            }
+          },
+          "price": 4629,
+          "price_usd": 4629,
+          "price_rub": 4629
+        },
+        "skin": {
+          "id": 414521,
+          "uuid": "skin-k28arivz",
+          "image_url": "assets/skins/skin_774998.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Gungnir",
+            "en": "AWP | Gungnir"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Gungnir",
+              "en": "Gungnir"
+            }
+          },
+          "price": 4629,
+          "price_usd": 4629,
+          "price_rub": 4629
+        }
+      },
+      {
+        "uuid": "skin-p5qljmzs",
+        "chance": 6.25,
+        "original_price": 3591,
+        "data": {
+          "id": 174945,
+          "uuid": "skin-p5qljmzs",
+          "image_url": "assets/skins/skin_174945.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AK-47 | Asiimov",
+            "en": "AK-47 | Asiimov"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AK-47",
+              "en": "AK-47"
+            },
+            "skin_name": {
+              "ru": "Asiimov",
+              "en": "Asiimov"
+            }
+          },
+          "price": 3591,
+          "price_usd": 3591,
+          "price_rub": 3591
+        },
+        "skin": {
+          "id": 864278,
+          "uuid": "skin-p5qljmzs",
+          "image_url": "assets/skins/skin_174945.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AK-47 | Asiimov",
+            "en": "AK-47 | Asiimov"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AK-47",
+              "en": "AK-47"
+            },
+            "skin_name": {
+              "ru": "Asiimov",
+              "en": "Asiimov"
+            }
+          },
+          "price": 3591,
+          "price_usd": 3591,
+          "price_rub": 3591
+        }
+      },
+      {
+        "uuid": "skin-h410zjki",
+        "chance": 6.25,
+        "original_price": 4853,
+        "data": {
+          "id": 753790,
+          "uuid": "skin-h410zjki",
+          "image_url": "assets/skins/skin_753790.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Asiimov",
+            "en": "AWP | Asiimov"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Asiimov",
+              "en": "Asiimov"
+            }
+          },
+          "price": 4853,
+          "price_usd": 4853,
+          "price_rub": 4853
+        },
+        "skin": {
+          "id": 554437,
+          "uuid": "skin-h410zjki",
+          "image_url": "assets/skins/skin_753790.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Asiimov",
+            "en": "AWP | Asiimov"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Asiimov",
+              "en": "Asiimov"
+            }
+          },
+          "price": 4853,
+          "price_usd": 4853,
+          "price_rub": 4853
+        }
+      },
+      {
+        "uuid": "skin-l31jojcw",
+        "chance": 6.25,
+        "original_price": 2639,
+        "data": {
+          "id": 854896,
+          "uuid": "skin-l31jojcw",
+          "image_url": "assets/skins/skin_854896.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "M4A4 | Asiimov",
+            "en": "M4A4 | Asiimov"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M4A4",
+              "en": "M4A4"
+            },
+            "skin_name": {
+              "ru": "Asiimov",
+              "en": "Asiimov"
+            }
+          },
+          "price": 2639,
+          "price_usd": 2639,
+          "price_rub": 2639
+        },
+        "skin": {
+          "id": 301114,
+          "uuid": "skin-l31jojcw",
+          "image_url": "assets/skins/skin_854896.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "M4A4 | Asiimov",
+            "en": "M4A4 | Asiimov"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M4A4",
+              "en": "M4A4"
+            },
+            "skin_name": {
+              "ru": "Asiimov",
+              "en": "Asiimov"
+            }
+          },
+          "price": 2639,
+          "price_usd": 2639,
+          "price_rub": 2639
+        }
+      },
+      {
+        "uuid": "skin-b8nvwn2k",
+        "chance": 6.25,
+        "original_price": 1727,
+        "data": {
+          "id": 600005,
+          "uuid": "skin-b8nvwn2k",
+          "image_url": "assets/skins/skin_600005.png",
+          "rarity": "rarity_legendary_weapon",
+          "name": {
+            "ru": "P250 | Asiimov",
+            "en": "P250 | Asiimov"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "P250",
+              "en": "P250"
+            },
+            "skin_name": {
+              "ru": "Asiimov",
+              "en": "Asiimov"
+            }
+          },
+          "price": 1727,
+          "price_usd": 1727,
+          "price_rub": 1727
+        },
+        "skin": {
+          "id": 839728,
+          "uuid": "skin-b8nvwn2k",
+          "image_url": "assets/skins/skin_600005.png",
+          "rarity": "rarity_legendary_weapon",
+          "name": {
+            "ru": "P250 | Asiimov",
+            "en": "P250 | Asiimov"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "P250",
+              "en": "P250"
+            },
+            "skin_name": {
+              "ru": "Asiimov",
+              "en": "Asiimov"
+            }
+          },
+          "price": 1727,
+          "price_usd": 1727,
+          "price_rub": 1727
+        }
+      },
+      {
+        "uuid": "skin-ezwpmnwz",
+        "chance": 6.25,
+        "original_price": 2331,
+        "data": {
+          "id": 807037,
+          "uuid": "skin-ezwpmnwz",
+          "image_url": "assets/skins/skin_807037.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "P90 | Asiimov",
+            "en": "P90 | Asiimov"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "P90",
+              "en": "P90"
+            },
+            "skin_name": {
+              "ru": "Asiimov",
+              "en": "Asiimov"
+            }
+          },
+          "price": 2331,
+          "price_usd": 2331,
+          "price_rub": 2331
+        },
+        "skin": {
+          "id": 615218,
+          "uuid": "skin-ezwpmnwz",
+          "image_url": "assets/skins/skin_807037.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "P90 | Asiimov",
+            "en": "P90 | Asiimov"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "P90",
+              "en": "P90"
+            },
+            "skin_name": {
+              "ru": "Asiimov",
+              "en": "Asiimov"
+            }
+          },
+          "price": 2331,
+          "price_usd": 2331,
+          "price_rub": 2331
+        }
+      },
+      {
+        "uuid": "skin-p9320yjh",
+        "chance": 6.25,
+        "original_price": 3802,
+        "data": {
+          "id": 531515,
+          "uuid": "skin-p9320yjh",
+          "image_url": "assets/skins/skin_531515.png",
+          "rarity": "rarity_uncommon_weapon",
+          "name": {
+            "ru": "AK-47 | Safari Mesh",
+            "en": "AK-47 | Safari Mesh"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AK-47",
+              "en": "AK-47"
+            },
+            "skin_name": {
+              "ru": "Safari Mesh",
+              "en": "Safari Mesh"
+            }
+          },
+          "price": 3802,
+          "price_usd": 3802,
+          "price_rub": 3802
+        },
+        "skin": {
+          "id": 290154,
+          "uuid": "skin-p9320yjh",
+          "image_url": "assets/skins/skin_531515.png",
+          "rarity": "rarity_uncommon_weapon",
+          "name": {
+            "ru": "AK-47 | Safari Mesh",
+            "en": "AK-47 | Safari Mesh"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AK-47",
+              "en": "AK-47"
+            },
+            "skin_name": {
+              "ru": "Safari Mesh",
+              "en": "Safari Mesh"
+            }
+          },
+          "price": 3802,
+          "price_usd": 3802,
+          "price_rub": 3802
+        }
+      },
+      {
+        "uuid": "skin-3zw3nwfe",
+        "chance": 6.25,
+        "original_price": 5194,
+        "data": {
+          "id": 375929,
+          "uuid": "skin-3zw3nwfe",
+          "image_url": "assets/skins/skin_375929.png",
+          "rarity": "rarity_uncommon_weapon",
+          "name": {
+            "ru": "AWP | Safari Mesh",
+            "en": "AWP | Safari Mesh"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Safari Mesh",
+              "en": "Safari Mesh"
+            }
+          },
+          "price": 5194,
+          "price_usd": 5194,
+          "price_rub": 5194
+        },
+        "skin": {
+          "id": 239405,
+          "uuid": "skin-3zw3nwfe",
+          "image_url": "assets/skins/skin_375929.png",
+          "rarity": "rarity_uncommon_weapon",
+          "name": {
+            "ru": "AWP | Safari Mesh",
+            "en": "AWP | Safari Mesh"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Safari Mesh",
+              "en": "Safari Mesh"
+            }
+          },
+          "price": 5194,
+          "price_usd": 5194,
+          "price_rub": 5194
+        }
+      },
+      {
+        "uuid": "skin-fiqk563y",
+        "chance": 6.25,
+        "original_price": 2455,
+        "data": {
+          "id": 828225,
+          "uuid": "skin-fiqk563y",
+          "image_url": "assets/skins/skin_828225.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Bayonet | Safari Mesh",
+            "en": "Bayonet | Safari Mesh"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Bayonet",
+              "en": "Bayonet"
+            },
+            "skin_name": {
+              "ru": "Safari Mesh",
+              "en": "Safari Mesh"
+            }
+          },
+          "price": 2455,
+          "price_usd": 2455,
+          "price_rub": 2455
+        },
+        "skin": {
+          "id": 128839,
+          "uuid": "skin-fiqk563y",
+          "image_url": "assets/skins/skin_828225.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Bayonet | Safari Mesh",
+            "en": "Bayonet | Safari Mesh"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Bayonet",
+              "en": "Bayonet"
+            },
+            "skin_name": {
+              "ru": "Safari Mesh",
+              "en": "Safari Mesh"
+            }
+          },
+          "price": 2455,
+          "price_usd": 2455,
+          "price_rub": 2455
+        }
+      },
+      {
+        "uuid": "skin-h7yfbtd9",
+        "chance": 6.25,
+        "original_price": 4692,
+        "data": {
+          "id": 367873,
+          "uuid": "skin-h7yfbtd9",
+          "image_url": "assets/skins/skin_367873.png",
+          "rarity": "rarity_common_weapon",
+          "name": {
+            "ru": "G3SG1 | Safari Mesh",
+            "en": "G3SG1 | Safari Mesh"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "G3SG1",
+              "en": "G3SG1"
+            },
+            "skin_name": {
+              "ru": "Safari Mesh",
+              "en": "Safari Mesh"
+            }
+          },
+          "price": 4692,
+          "price_usd": 4692,
+          "price_rub": 4692
+        },
+        "skin": {
+          "id": 224564,
+          "uuid": "skin-h7yfbtd9",
+          "image_url": "assets/skins/skin_367873.png",
+          "rarity": "rarity_common_weapon",
+          "name": {
+            "ru": "G3SG1 | Safari Mesh",
+            "en": "G3SG1 | Safari Mesh"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "G3SG1",
+              "en": "G3SG1"
+            },
+            "skin_name": {
+              "ru": "Safari Mesh",
+              "en": "Safari Mesh"
+            }
+          },
+          "price": 4692,
+          "price_usd": 4692,
+          "price_rub": 4692
+        }
+      },
+      {
+        "uuid": "skin-ao1r7x95",
+        "chance": 6.25,
+        "original_price": 3570,
+        "data": {
+          "id": 399394,
+          "uuid": "skin-ao1r7x95",
+          "image_url": "assets/skins/skin_399394.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Butterfly Knife | Safari Mesh",
+            "en": "Butterfly Knife | Safari Mesh"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Butterfly Knife",
+              "en": "Butterfly Knife"
+            },
+            "skin_name": {
+              "ru": "Safari Mesh",
+              "en": "Safari Mesh"
+            }
+          },
+          "price": 3570,
+          "price_usd": 3570,
+          "price_rub": 3570
+        },
+        "skin": {
+          "id": 424983,
+          "uuid": "skin-ao1r7x95",
+          "image_url": "assets/skins/skin_399394.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Butterfly Knife | Safari Mesh",
+            "en": "Butterfly Knife | Safari Mesh"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Butterfly Knife",
+              "en": "Butterfly Knife"
+            },
+            "skin_name": {
+              "ru": "Safari Mesh",
+              "en": "Safari Mesh"
+            }
+          },
+          "price": 3570,
+          "price_usd": 3570,
+          "price_rub": 3570
+        }
+      },
+      {
+        "uuid": "skin-lphdn4kq",
+        "chance": 6.25,
+        "original_price": 1938,
+        "data": {
+          "id": 700759,
+          "uuid": "skin-lphdn4kq",
+          "image_url": "assets/skins/skin_700759.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Survival Knife | Safari Mesh",
+            "en": "Survival Knife | Safari Mesh"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Survival Knife",
+              "en": "Survival Knife"
+            },
+            "skin_name": {
+              "ru": "Safari Mesh",
+              "en": "Safari Mesh"
+            }
+          },
+          "price": 1938,
+          "price_usd": 1938,
+          "price_rub": 1938
+        },
+        "skin": {
+          "id": 457893,
+          "uuid": "skin-lphdn4kq",
+          "image_url": "assets/skins/skin_700759.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Survival Knife | Safari Mesh",
+            "en": "Survival Knife | Safari Mesh"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Survival Knife",
+              "en": "Survival Knife"
+            },
+            "skin_name": {
+              "ru": "Safari Mesh",
+              "en": "Safari Mesh"
+            }
+          },
+          "price": 1938,
+          "price_usd": 1938,
+          "price_rub": 1938
+        }
+      },
+      {
+        "uuid": "skin-uh01stzv",
+        "chance": 6.25,
+        "original_price": 4187,
+        "data": {
+          "id": 185026,
+          "uuid": "skin-uh01stzv",
+          "image_url": "assets/skins/skin_185026.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Paracord Knife | Safari Mesh",
+            "en": "Paracord Knife | Safari Mesh"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Paracord Knife",
+              "en": "Paracord Knife"
+            },
+            "skin_name": {
+              "ru": "Safari Mesh",
+              "en": "Safari Mesh"
+            }
+          },
+          "price": 4187,
+          "price_usd": 4187,
+          "price_rub": 4187
+        },
+        "skin": {
+          "id": 149078,
+          "uuid": "skin-uh01stzv",
+          "image_url": "assets/skins/skin_185026.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Paracord Knife | Safari Mesh",
+            "en": "Paracord Knife | Safari Mesh"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Paracord Knife",
+              "en": "Paracord Knife"
+            },
+            "skin_name": {
+              "ru": "Safari Mesh",
+              "en": "Safari Mesh"
+            }
+          },
+          "price": 4187,
+          "price_usd": 4187,
+          "price_rub": 4187
+        }
+      },
+      {
+        "uuid": "skin-wtrpfa9o",
+        "chance": 6.25,
+        "original_price": 1015,
+        "data": {
+          "id": 642924,
+          "uuid": "skin-wtrpfa9o",
+          "image_url": "assets/skins/skin_642924.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Classic Knife | Safari Mesh",
+            "en": "Classic Knife | Safari Mesh"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Classic Knife",
+              "en": "Classic Knife"
+            },
+            "skin_name": {
+              "ru": "Safari Mesh",
+              "en": "Safari Mesh"
+            }
+          },
+          "price": 1015,
+          "price_usd": 1015,
+          "price_rub": 1015
+        },
+        "skin": {
+          "id": 681527,
+          "uuid": "skin-wtrpfa9o",
+          "image_url": "assets/skins/skin_642924.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Classic Knife | Safari Mesh",
+            "en": "Classic Knife | Safari Mesh"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Classic Knife",
+              "en": "Classic Knife"
+            },
+            "skin_name": {
+              "ru": "Safari Mesh",
+              "en": "Safari Mesh"
+            }
+          },
+          "price": 1015,
+          "price_usd": 1015,
+          "price_rub": 1015
+        }
+      }
+    ],
+    "price_rub": 25000,
+    "normal_price_usd": 25000,
+    "normal_price_rub": 25000
+  },
+  {
+    "id": 3,
+    "name": {
+      "ru": "Случайный Поток информации",
+      "en": "Случайный Поток информации"
+    },
+    "price": 200,
+    "price_usd": 20000,
+    "old_price": 400,
+    "discount": 50,
+    "image_url": "assets/Случайный Поток информации.webp",
+    "skins": [
+      {
+        "uuid": "skin-rr0hdj0t",
+        "chance": 6.25,
+        "original_price": 1297,
+        "data": {
+          "id": 684649,
+          "uuid": "skin-rr0hdj0t",
+          "image_url": "assets/skins/skin_684649.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Printstream",
+            "en": "AWP | Printstream"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Printstream",
+              "en": "Printstream"
+            }
+          },
+          "price": 1297,
+          "price_usd": 1297,
+          "price_rub": 1297
+        },
+        "skin": {
+          "id": 868734,
+          "uuid": "skin-rr0hdj0t",
+          "image_url": "assets/skins/skin_684649.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Printstream",
+            "en": "AWP | Printstream"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Printstream",
+              "en": "Printstream"
+            }
+          },
+          "price": 1297,
+          "price_usd": 1297,
+          "price_rub": 1297
+        }
+      },
+      {
+        "uuid": "skin-549ftom7",
+        "chance": 6.25,
+        "original_price": 4962,
+        "data": {
+          "id": 324823,
+          "uuid": "skin-549ftom7",
+          "image_url": "assets/skins/skin_324823.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Desert Eagle | Printstream",
+            "en": "Desert Eagle | Printstream"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Desert Eagle",
+              "en": "Desert Eagle"
+            },
+            "skin_name": {
+              "ru": "Printstream",
+              "en": "Printstream"
+            }
+          },
+          "price": 4962,
+          "price_usd": 4962,
+          "price_rub": 4962
+        },
+        "skin": {
+          "id": 850452,
+          "uuid": "skin-549ftom7",
+          "image_url": "assets/skins/skin_324823.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Desert Eagle | Printstream",
+            "en": "Desert Eagle | Printstream"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Desert Eagle",
+              "en": "Desert Eagle"
+            },
+            "skin_name": {
+              "ru": "Printstream",
+              "en": "Printstream"
+            }
+          },
+          "price": 4962,
+          "price_usd": 4962,
+          "price_rub": 4962
+        }
+      },
+      {
+        "uuid": "skin-pv1c4g6k",
+        "chance": 6.25,
+        "original_price": 4334,
+        "data": {
+          "id": 867193,
+          "uuid": "skin-pv1c4g6k",
+          "image_url": "assets/skins/skin_867193.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "M4A1-S | Printstream",
+            "en": "M4A1-S | Printstream"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M4A1-S",
+              "en": "M4A1-S"
+            },
+            "skin_name": {
+              "ru": "Printstream",
+              "en": "Printstream"
+            }
+          },
+          "price": 4334,
+          "price_usd": 4334,
+          "price_rub": 4334
+        },
+        "skin": {
+          "id": 208367,
+          "uuid": "skin-pv1c4g6k",
+          "image_url": "assets/skins/skin_867193.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "M4A1-S | Printstream",
+            "en": "M4A1-S | Printstream"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M4A1-S",
+              "en": "M4A1-S"
+            },
+            "skin_name": {
+              "ru": "Printstream",
+              "en": "Printstream"
+            }
+          },
+          "price": 4334,
+          "price_usd": 4334,
+          "price_rub": 4334
+        }
+      },
+      {
+        "uuid": "skin-74tre1qk",
+        "chance": 6.25,
+        "original_price": 3331,
+        "data": {
+          "id": 104283,
+          "uuid": "skin-74tre1qk",
+          "image_url": "assets/skins/skin_104283.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "USP-S | Printstream",
+            "en": "USP-S | Printstream"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "USP-S",
+              "en": "USP-S"
+            },
+            "skin_name": {
+              "ru": "Printstream",
+              "en": "Printstream"
+            }
+          },
+          "price": 3331,
+          "price_usd": 3331,
+          "price_rub": 3331
+        },
+        "skin": {
+          "id": 761155,
+          "uuid": "skin-74tre1qk",
+          "image_url": "assets/skins/skin_104283.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "USP-S | Printstream",
+            "en": "USP-S | Printstream"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "USP-S",
+              "en": "USP-S"
+            },
+            "skin_name": {
+              "ru": "Printstream",
+              "en": "Printstream"
+            }
+          },
+          "price": 3331,
+          "price_usd": 3331,
+          "price_rub": 3331
+        }
+      },
+      {
+        "uuid": "skin-8in2t8ke",
+        "chance": 6.25,
+        "original_price": 5206,
+        "data": {
+          "id": 777645,
+          "uuid": "skin-8in2t8ke",
+          "image_url": "assets/skins/skin_777645.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Neo-Noir",
+            "en": "AWP | Neo-Noir"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Neo-Noir",
+              "en": "Neo-Noir"
+            }
+          },
+          "price": 5206,
+          "price_usd": 5206,
+          "price_rub": 5206
+        },
+        "skin": {
+          "id": 707482,
+          "uuid": "skin-8in2t8ke",
+          "image_url": "assets/skins/skin_777645.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Neo-Noir",
+            "en": "AWP | Neo-Noir"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Neo-Noir",
+              "en": "Neo-Noir"
+            }
+          },
+          "price": 5206,
+          "price_usd": 5206,
+          "price_rub": 5206
+        }
+      },
+      {
+        "uuid": "skin-cbjvm2j0",
+        "chance": 6.25,
+        "original_price": 2050,
+        "data": {
+          "id": 306743,
+          "uuid": "skin-cbjvm2j0",
+          "image_url": "assets/skins/skin_306743.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Glock-18 | Neo-Noir",
+            "en": "Glock-18 | Neo-Noir"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Glock-18",
+              "en": "Glock-18"
+            },
+            "skin_name": {
+              "ru": "Neo-Noir",
+              "en": "Neo-Noir"
+            }
+          },
+          "price": 2050,
+          "price_usd": 2050,
+          "price_rub": 2050
+        },
+        "skin": {
+          "id": 433778,
+          "uuid": "skin-cbjvm2j0",
+          "image_url": "assets/skins/skin_306743.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Glock-18 | Neo-Noir",
+            "en": "Glock-18 | Neo-Noir"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Glock-18",
+              "en": "Glock-18"
+            },
+            "skin_name": {
+              "ru": "Neo-Noir",
+              "en": "Neo-Noir"
+            }
+          },
+          "price": 2050,
+          "price_usd": 2050,
+          "price_rub": 2050
+        }
+      },
+      {
+        "uuid": "skin-zvu7hii0",
+        "chance": 6.25,
+        "original_price": 3580,
+        "data": {
+          "id": 291542,
+          "uuid": "skin-zvu7hii0",
+          "image_url": "assets/skins/skin_291542.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "M4A4 | Neo-Noir",
+            "en": "M4A4 | Neo-Noir"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M4A4",
+              "en": "M4A4"
+            },
+            "skin_name": {
+              "ru": "Neo-Noir",
+              "en": "Neo-Noir"
+            }
+          },
+          "price": 3580,
+          "price_usd": 3580,
+          "price_rub": 3580
+        },
+        "skin": {
+          "id": 573586,
+          "uuid": "skin-zvu7hii0",
+          "image_url": "assets/skins/skin_291542.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "M4A4 | Neo-Noir",
+            "en": "M4A4 | Neo-Noir"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M4A4",
+              "en": "M4A4"
+            },
+            "skin_name": {
+              "ru": "Neo-Noir",
+              "en": "Neo-Noir"
+            }
+          },
+          "price": 3580,
+          "price_usd": 3580,
+          "price_rub": 3580
+        }
+      },
+      {
+        "uuid": "skin-wz4uiomt",
+        "chance": 6.25,
+        "original_price": 4236,
+        "data": {
+          "id": 227136,
+          "uuid": "skin-wz4uiomt",
+          "image_url": "assets/skins/skin_227136.png",
+          "rarity": "rarity_legendary_weapon",
+          "name": {
+            "ru": "UMP-45 | Neo-Noir",
+            "en": "UMP-45 | Neo-Noir"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "UMP-45",
+              "en": "UMP-45"
+            },
+            "skin_name": {
+              "ru": "Neo-Noir",
+              "en": "Neo-Noir"
+            }
+          },
+          "price": 4236,
+          "price_usd": 4236,
+          "price_rub": 4236
+        },
+        "skin": {
+          "id": 321876,
+          "uuid": "skin-wz4uiomt",
+          "image_url": "assets/skins/skin_227136.png",
+          "rarity": "rarity_legendary_weapon",
+          "name": {
+            "ru": "UMP-45 | Neo-Noir",
+            "en": "UMP-45 | Neo-Noir"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "UMP-45",
+              "en": "UMP-45"
+            },
+            "skin_name": {
+              "ru": "Neo-Noir",
+              "en": "Neo-Noir"
+            }
+          },
+          "price": 4236,
+          "price_usd": 4236,
+          "price_rub": 4236
+        }
+      },
+      {
+        "uuid": "skin-uxeyuok4",
+        "chance": 6.25,
+        "original_price": 1260,
+        "data": {
+          "id": 215577,
+          "uuid": "skin-uxeyuok4",
+          "image_url": "assets/skins/skin_215577.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "USP-S | Neo-Noir",
+            "en": "USP-S | Neo-Noir"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "USP-S",
+              "en": "USP-S"
+            },
+            "skin_name": {
+              "ru": "Neo-Noir",
+              "en": "Neo-Noir"
+            }
+          },
+          "price": 1260,
+          "price_usd": 1260,
+          "price_rub": 1260
+        },
+        "skin": {
+          "id": 497430,
+          "uuid": "skin-uxeyuok4",
+          "image_url": "assets/skins/skin_215577.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "USP-S | Neo-Noir",
+            "en": "USP-S | Neo-Noir"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "USP-S",
+              "en": "USP-S"
+            },
+            "skin_name": {
+              "ru": "Neo-Noir",
+              "en": "Neo-Noir"
+            }
+          },
+          "price": 1260,
+          "price_usd": 1260,
+          "price_rub": 1260
+        }
+      },
+      {
+        "uuid": "skin-cwbz4mlw",
+        "chance": 6.25,
+        "original_price": 1389,
+        "data": {
+          "id": 659193,
+          "uuid": "skin-cwbz4mlw",
+          "image_url": "assets/skins/skin_659193.png",
+          "rarity": "rarity_legendary_weapon",
+          "name": {
+            "ru": "M4A1-S | Decimator",
+            "en": "M4A1-S | Decimator"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M4A1-S",
+              "en": "M4A1-S"
+            },
+            "skin_name": {
+              "ru": "Decimator",
+              "en": "Decimator"
+            }
+          },
+          "price": 1389,
+          "price_usd": 1389,
+          "price_rub": 1389
+        },
+        "skin": {
+          "id": 192944,
+          "uuid": "skin-cwbz4mlw",
+          "image_url": "assets/skins/skin_659193.png",
+          "rarity": "rarity_legendary_weapon",
+          "name": {
+            "ru": "M4A1-S | Decimator",
+            "en": "M4A1-S | Decimator"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M4A1-S",
+              "en": "M4A1-S"
+            },
+            "skin_name": {
+              "ru": "Decimator",
+              "en": "Decimator"
+            }
+          },
+          "price": 1389,
+          "price_usd": 1389,
+          "price_rub": 1389
+        }
+      },
+      {
+        "uuid": "skin-fykx96ti",
+        "chance": 6.25,
+        "original_price": 4137,
+        "data": {
+          "id": 251587,
+          "uuid": "skin-fykx96ti",
+          "image_url": "assets/skins/skin_251587.png",
+          "rarity": "rarity_legendary_weapon",
+          "name": {
+            "ru": "Tec-9 | Decimator",
+            "en": "Tec-9 | Decimator"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Tec-9",
+              "en": "Tec-9"
+            },
+            "skin_name": {
+              "ru": "Decimator",
+              "en": "Decimator"
+            }
+          },
+          "price": 4137,
+          "price_usd": 4137,
+          "price_rub": 4137
+        },
+        "skin": {
+          "id": 497187,
+          "uuid": "skin-fykx96ti",
+          "image_url": "assets/skins/skin_251587.png",
+          "rarity": "rarity_legendary_weapon",
+          "name": {
+            "ru": "Tec-9 | Decimator",
+            "en": "Tec-9 | Decimator"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Tec-9",
+              "en": "Tec-9"
+            },
+            "skin_name": {
+              "ru": "Decimator",
+              "en": "Decimator"
+            }
+          },
+          "price": 4137,
+          "price_usd": 4137,
+          "price_rub": 4137
+        }
+      },
+      {
+        "uuid": "skin-er86c9e7",
+        "chance": 6.25,
+        "original_price": 4144,
+        "data": {
+          "id": 100293,
+          "uuid": "skin-er86c9e7",
+          "image_url": "assets/skins/skin_100293.png",
+          "rarity": "rarity_legendary_weapon",
+          "name": {
+            "ru": "Desert Eagle | Mecha Industries",
+            "en": "Desert Eagle | Mecha Industries"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Desert Eagle",
+              "en": "Desert Eagle"
+            },
+            "skin_name": {
+              "ru": "Mecha Industries",
+              "en": "Mecha Industries"
+            }
+          },
+          "price": 4144,
+          "price_usd": 4144,
+          "price_rub": 4144
+        },
+        "skin": {
+          "id": 235470,
+          "uuid": "skin-er86c9e7",
+          "image_url": "assets/skins/skin_100293.png",
+          "rarity": "rarity_legendary_weapon",
+          "name": {
+            "ru": "Desert Eagle | Mecha Industries",
+            "en": "Desert Eagle | Mecha Industries"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Desert Eagle",
+              "en": "Desert Eagle"
+            },
+            "skin_name": {
+              "ru": "Mecha Industries",
+              "en": "Mecha Industries"
+            }
+          },
+          "price": 4144,
+          "price_usd": 4144,
+          "price_rub": 4144
+        }
+      },
+      {
+        "uuid": "skin-un6e4voq",
+        "chance": 6.25,
+        "original_price": 5176,
+        "data": {
+          "id": 218929,
+          "uuid": "skin-un6e4voq",
+          "image_url": "assets/skins/skin_218929.png",
+          "rarity": "rarity_legendary_weapon",
+          "name": {
+            "ru": "FAMAS | Mecha Industries",
+            "en": "FAMAS | Mecha Industries"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "FAMAS",
+              "en": "FAMAS"
+            },
+            "skin_name": {
+              "ru": "Mecha Industries",
+              "en": "Mecha Industries"
+            }
+          },
+          "price": 5176,
+          "price_usd": 5176,
+          "price_rub": 5176
+        },
+        "skin": {
+          "id": 523578,
+          "uuid": "skin-un6e4voq",
+          "image_url": "assets/skins/skin_218929.png",
+          "rarity": "rarity_legendary_weapon",
+          "name": {
+            "ru": "FAMAS | Mecha Industries",
+            "en": "FAMAS | Mecha Industries"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "FAMAS",
+              "en": "FAMAS"
+            },
+            "skin_name": {
+              "ru": "Mecha Industries",
+              "en": "Mecha Industries"
+            }
+          },
+          "price": 5176,
+          "price_usd": 5176,
+          "price_rub": 5176
+        }
+      },
+      {
+        "uuid": "skin-nw9zp5i6",
+        "chance": 6.25,
+        "original_price": 3258,
+        "data": {
+          "id": 229641,
+          "uuid": "skin-nw9zp5i6",
+          "image_url": "assets/skins/skin_229641.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "M4A1-S | Mecha Industries",
+            "en": "M4A1-S | Mecha Industries"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M4A1-S",
+              "en": "M4A1-S"
+            },
+            "skin_name": {
+              "ru": "Mecha Industries",
+              "en": "Mecha Industries"
+            }
+          },
+          "price": 3258,
+          "price_usd": 3258,
+          "price_rub": 3258
+        },
+        "skin": {
+          "id": 538235,
+          "uuid": "skin-nw9zp5i6",
+          "image_url": "assets/skins/skin_229641.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "M4A1-S | Mecha Industries",
+            "en": "M4A1-S | Mecha Industries"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M4A1-S",
+              "en": "M4A1-S"
+            },
+            "skin_name": {
+              "ru": "Mecha Industries",
+              "en": "Mecha Industries"
+            }
+          },
+          "price": 3258,
+          "price_usd": 3258,
+          "price_rub": 3258
+        }
+      },
+      {
+        "uuid": "skin-ffpnqion",
+        "chance": 6.25,
+        "original_price": 1061,
+        "data": {
+          "id": 401246,
+          "uuid": "skin-ffpnqion",
+          "image_url": "assets/skins/skin_401246.png",
+          "rarity": "rarity_rare_weapon",
+          "name": {
+            "ru": "MP7 | Whiteout",
+            "en": "MP7 | Whiteout"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "MP7",
+              "en": "MP7"
+            },
+            "skin_name": {
+              "ru": "Whiteout",
+              "en": "Whiteout"
+            }
+          },
+          "price": 1061,
+          "price_usd": 1061,
+          "price_rub": 1061
+        },
+        "skin": {
+          "id": 472580,
+          "uuid": "skin-ffpnqion",
+          "image_url": "assets/skins/skin_401246.png",
+          "rarity": "rarity_rare_weapon",
+          "name": {
+            "ru": "MP7 | Whiteout",
+            "en": "MP7 | Whiteout"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "MP7",
+              "en": "MP7"
+            },
+            "skin_name": {
+              "ru": "Whiteout",
+              "en": "Whiteout"
+            }
+          },
+          "price": 1061,
+          "price_usd": 1061,
+          "price_rub": 1061
+        }
+      },
+      {
+        "uuid": "skin-fksff0oh",
+        "chance": 6.25,
+        "original_price": 1046,
+        "data": {
+          "id": 284906,
+          "uuid": "skin-fksff0oh",
+          "image_url": "assets/skins/skin_284906.png",
+          "rarity": "rarity_rare_weapon",
+          "name": {
+            "ru": "P250 | Whiteout",
+            "en": "P250 | Whiteout"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "P250",
+              "en": "P250"
+            },
+            "skin_name": {
+              "ru": "Whiteout",
+              "en": "Whiteout"
+            }
+          },
+          "price": 1046,
+          "price_usd": 1046,
+          "price_rub": 1046
+        },
+        "skin": {
+          "id": 239503,
+          "uuid": "skin-fksff0oh",
+          "image_url": "assets/skins/skin_284906.png",
+          "rarity": "rarity_rare_weapon",
+          "name": {
+            "ru": "P250 | Whiteout",
+            "en": "P250 | Whiteout"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "P250",
+              "en": "P250"
+            },
+            "skin_name": {
+              "ru": "Whiteout",
+              "en": "Whiteout"
+            }
+          },
+          "price": 1046,
+          "price_usd": 1046,
+          "price_rub": 1046
+        }
+      }
+    ],
+    "price_rub": 20000,
+    "normal_price_usd": 20000,
+    "normal_price_rub": 20000
+  },
+  {
+    "id": 4,
+    "name": {
+      "ru": "Случайный удар молнии",
+      "en": "Случайный удар молнии"
+    },
+    "price": 300,
+    "price_usd": 30000,
+    "old_price": 600,
+    "discount": 50,
+    "image_url": "assets/Случайный удар молнии.webp",
+    "skins": [
+      {
+        "uuid": "skin-ia7e0aj7",
+        "chance": 8.33,
+        "original_price": 2033,
+        "data": {
+          "id": 264008,
+          "uuid": "skin-ia7e0aj7",
+          "image_url": "assets/skins/skin_264008.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Lightning Strike",
+            "en": "AWP | Lightning Strike"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Lightning Strike",
+              "en": "Lightning Strike"
+            }
+          },
+          "price": 2033,
+          "price_usd": 2033,
+          "price_rub": 2033
+        },
+        "skin": {
+          "id": 446157,
+          "uuid": "skin-ia7e0aj7",
+          "image_url": "assets/skins/skin_264008.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Lightning Strike",
+            "en": "AWP | Lightning Strike"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Lightning Strike",
+              "en": "Lightning Strike"
+            }
+          },
+          "price": 2033,
+          "price_usd": 2033,
+          "price_rub": 2033
+        }
+      },
+      {
+        "uuid": "skin-b7k4pkmq",
+        "chance": 8.33,
+        "original_price": 773,
+        "data": {
+          "id": 629346,
+          "uuid": "skin-b7k4pkmq",
+          "image_url": "assets/skins/skin_629346.png",
+          "rarity": "rarity_legendary_weapon",
+          "name": {
+            "ru": "AWP | Electric Hive",
+            "en": "AWP | Electric Hive"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Electric Hive",
+              "en": "Electric Hive"
+            }
+          },
+          "price": 773,
+          "price_usd": 773,
+          "price_rub": 773
+        },
+        "skin": {
+          "id": 474563,
+          "uuid": "skin-b7k4pkmq",
+          "image_url": "assets/skins/skin_629346.png",
+          "rarity": "rarity_legendary_weapon",
+          "name": {
+            "ru": "AWP | Electric Hive",
+            "en": "AWP | Electric Hive"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Electric Hive",
+              "en": "Electric Hive"
+            }
+          },
+          "price": 773,
+          "price_usd": 773,
+          "price_rub": 773
+        }
+      },
+      {
+        "uuid": "skin-808nwqqz",
+        "chance": 8.33,
+        "original_price": 4510,
+        "data": {
+          "id": 146289,
+          "uuid": "skin-808nwqqz",
+          "image_url": "assets/skins/skin_146289.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Hyper Beast",
+            "en": "AWP | Hyper Beast"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Hyper Beast",
+              "en": "Hyper Beast"
+            }
+          },
+          "price": 4510,
+          "price_usd": 4510,
+          "price_rub": 4510
+        },
+        "skin": {
+          "id": 207677,
+          "uuid": "skin-808nwqqz",
+          "image_url": "assets/skins/skin_146289.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Hyper Beast",
+            "en": "AWP | Hyper Beast"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Hyper Beast",
+              "en": "Hyper Beast"
+            }
+          },
+          "price": 4510,
+          "price_usd": 4510,
+          "price_rub": 4510
+        }
+      },
+      {
+        "uuid": "skin-1t2dc0u4",
+        "chance": 8.33,
+        "original_price": 1242,
+        "data": {
+          "id": 432754,
+          "uuid": "skin-1t2dc0u4",
+          "image_url": "assets/skins/skin_432754.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Five-SeveN | Hyper Beast",
+            "en": "Five-SeveN | Hyper Beast"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Five-SeveN",
+              "en": "Five-SeveN"
+            },
+            "skin_name": {
+              "ru": "Hyper Beast",
+              "en": "Hyper Beast"
+            }
+          },
+          "price": 1242,
+          "price_usd": 1242,
+          "price_rub": 1242
+        },
+        "skin": {
+          "id": 844437,
+          "uuid": "skin-1t2dc0u4",
+          "image_url": "assets/skins/skin_432754.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Five-SeveN | Hyper Beast",
+            "en": "Five-SeveN | Hyper Beast"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Five-SeveN",
+              "en": "Five-SeveN"
+            },
+            "skin_name": {
+              "ru": "Hyper Beast",
+              "en": "Hyper Beast"
+            }
+          },
+          "price": 1242,
+          "price_usd": 1242,
+          "price_rub": 1242
+        }
+      },
+      {
+        "uuid": "skin-5e0sqfow",
+        "chance": 8.33,
+        "original_price": 1875,
+        "data": {
+          "id": 106228,
+          "uuid": "skin-5e0sqfow",
+          "image_url": "assets/skins/skin_106228.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "M4A1-S | Hyper Beast",
+            "en": "M4A1-S | Hyper Beast"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M4A1-S",
+              "en": "M4A1-S"
+            },
+            "skin_name": {
+              "ru": "Hyper Beast",
+              "en": "Hyper Beast"
+            }
+          },
+          "price": 1875,
+          "price_usd": 1875,
+          "price_rub": 1875
+        },
+        "skin": {
+          "id": 206817,
+          "uuid": "skin-5e0sqfow",
+          "image_url": "assets/skins/skin_106228.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "M4A1-S | Hyper Beast",
+            "en": "M4A1-S | Hyper Beast"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M4A1-S",
+              "en": "M4A1-S"
+            },
+            "skin_name": {
+              "ru": "Hyper Beast",
+              "en": "Hyper Beast"
+            }
+          },
+          "price": 1875,
+          "price_usd": 1875,
+          "price_rub": 1875
+        }
+      },
+      {
+        "uuid": "skin-uvbiubfb",
+        "chance": 8.33,
+        "original_price": 3316,
+        "data": {
+          "id": 719409,
+          "uuid": "skin-uvbiubfb",
+          "image_url": "assets/skins/skin_719409.png",
+          "rarity": "rarity_legendary_weapon",
+          "name": {
+            "ru": "Nova | Hyper Beast",
+            "en": "Nova | Hyper Beast"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Nova",
+              "en": "Nova"
+            },
+            "skin_name": {
+              "ru": "Hyper Beast",
+              "en": "Hyper Beast"
+            }
+          },
+          "price": 3316,
+          "price_usd": 3316,
+          "price_rub": 3316
+        },
+        "skin": {
+          "id": 644905,
+          "uuid": "skin-uvbiubfb",
+          "image_url": "assets/skins/skin_719409.png",
+          "rarity": "rarity_legendary_weapon",
+          "name": {
+            "ru": "Nova | Hyper Beast",
+            "en": "Nova | Hyper Beast"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Nova",
+              "en": "Nova"
+            },
+            "skin_name": {
+              "ru": "Hyper Beast",
+              "en": "Hyper Beast"
+            }
+          },
+          "price": 3316,
+          "price_usd": 3316,
+          "price_rub": 3316
+        }
+      },
+      {
+        "uuid": "skin-a2o1rcar",
+        "chance": 8.33,
+        "original_price": 2317,
+        "data": {
+          "id": 463284,
+          "uuid": "skin-a2o1rcar",
+          "image_url": "assets/skins/skin_463284.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Containment Breach",
+            "en": "AWP | Containment Breach"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Containment Breach",
+              "en": "Containment Breach"
+            }
+          },
+          "price": 2317,
+          "price_usd": 2317,
+          "price_rub": 2317
+        },
+        "skin": {
+          "id": 864396,
+          "uuid": "skin-a2o1rcar",
+          "image_url": "assets/skins/skin_463284.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Containment Breach",
+            "en": "AWP | Containment Breach"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Containment Breach",
+              "en": "Containment Breach"
+            }
+          },
+          "price": 2317,
+          "price_usd": 2317,
+          "price_rub": 2317
+        }
+      },
+      {
+        "uuid": "skin-7r7lh2tw",
+        "chance": 8.33,
+        "original_price": 842,
+        "data": {
+          "id": 807259,
+          "uuid": "skin-7r7lh2tw",
+          "image_url": "assets/skins/skin_807259.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Wildfire",
+            "en": "AWP | Wildfire"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Wildfire",
+              "en": "Wildfire"
+            }
+          },
+          "price": 842,
+          "price_usd": 842,
+          "price_rub": 842
+        },
+        "skin": {
+          "id": 209923,
+          "uuid": "skin-7r7lh2tw",
+          "image_url": "assets/skins/skin_807259.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "AWP | Wildfire",
+            "en": "AWP | Wildfire"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "AWP",
+              "en": "AWP"
+            },
+            "skin_name": {
+              "ru": "Wildfire",
+              "en": "Wildfire"
+            }
+          },
+          "price": 842,
+          "price_usd": 842,
+          "price_rub": 842
+        }
+      },
+      {
+        "uuid": "skin-s8il2tft",
+        "chance": 8.33,
+        "original_price": 2202,
+        "data": {
+          "id": 737560,
+          "uuid": "skin-s8il2tft",
+          "image_url": "assets/skins/skin_737560.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Kukri Knife",
+            "en": "Kukri Knife"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Kukri Knife",
+              "en": "Kukri Knife"
+            },
+            "skin_name": {
+              "ru": "Kukri Knife",
+              "en": "Kukri Knife"
+            }
+          },
+          "price": 2202,
+          "price_usd": 2202,
+          "price_rub": 2202
+        },
+        "skin": {
+          "id": 643801,
+          "uuid": "skin-s8il2tft",
+          "image_url": "assets/skins/skin_737560.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Kukri Knife",
+            "en": "Kukri Knife"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Kukri Knife",
+              "en": "Kukri Knife"
+            },
+            "skin_name": {
+              "ru": "Kukri Knife",
+              "en": "Kukri Knife"
+            }
+          },
+          "price": 2202,
+          "price_usd": 2202,
+          "price_rub": 2202
+        }
+      },
+      {
+        "uuid": "skin-a1mp18zb",
+        "chance": 8.33,
+        "original_price": 3975,
+        "data": {
+          "id": 675771,
+          "uuid": "skin-a1mp18zb",
+          "image_url": "assets/skins/skin_675771.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Ursus Knife | Stained",
+            "en": "Ursus Knife | Stained"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Ursus Knife",
+              "en": "Ursus Knife"
+            },
+            "skin_name": {
+              "ru": "Stained",
+              "en": "Stained"
+            }
+          },
+          "price": 3975,
+          "price_usd": 3975,
+          "price_rub": 3975
+        },
+        "skin": {
+          "id": 525830,
+          "uuid": "skin-a1mp18zb",
+          "image_url": "assets/skins/skin_675771.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Ursus Knife | Stained",
+            "en": "Ursus Knife | Stained"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Ursus Knife",
+              "en": "Ursus Knife"
+            },
+            "skin_name": {
+              "ru": "Stained",
+              "en": "Stained"
+            }
+          },
+          "price": 3975,
+          "price_usd": 3975,
+          "price_rub": 3975
+        }
+      },
+      {
+        "uuid": "skin-f6j7r723",
+        "chance": 8.33,
+        "original_price": 2762,
+        "data": {
+          "id": 665906,
+          "uuid": "skin-f6j7r723",
+          "image_url": "assets/skins/skin_665906.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Hand Wraps | Leather",
+            "en": "Hand Wraps | Leather"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Hand Wraps",
+              "en": "Hand Wraps"
+            },
+            "skin_name": {
+              "ru": "Leather",
+              "en": "Leather"
+            }
+          },
+          "price": 2762,
+          "price_usd": 2762,
+          "price_rub": 2762
+        },
+        "skin": {
+          "id": 793762,
+          "uuid": "skin-f6j7r723",
+          "image_url": "assets/skins/skin_665906.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Hand Wraps | Leather",
+            "en": "Hand Wraps | Leather"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Hand Wraps",
+              "en": "Hand Wraps"
+            },
+            "skin_name": {
+              "ru": "Leather",
+              "en": "Leather"
+            }
+          },
+          "price": 2762,
+          "price_usd": 2762,
+          "price_rub": 2762
+        }
+      },
+      {
+        "uuid": "skin-ok260df0",
+        "chance": 8.37,
+        "original_price": 3297,
+        "data": {
+          "id": 777677,
+          "uuid": "skin-ok260df0",
+          "image_url": "assets/skins/skin_777677.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "M4A4 | In Living Color",
+            "en": "M4A4 | In Living Color"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M4A4",
+              "en": "M4A4"
+            },
+            "skin_name": {
+              "ru": "In Living Color",
+              "en": "In Living Color"
+            }
+          },
+          "price": 3297,
+          "price_usd": 3297,
+          "price_rub": 3297
+        },
+        "skin": {
+          "id": 380304,
+          "uuid": "skin-ok260df0",
+          "image_url": "assets/skins/skin_777677.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "M4A4 | In Living Color",
+            "en": "M4A4 | In Living Color"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "M4A4",
+              "en": "M4A4"
+            },
+            "skin_name": {
+              "ru": "In Living Color",
+              "en": "In Living Color"
+            }
+          },
+          "price": 3297,
+          "price_usd": 3297,
+          "price_rub": 3297
+        }
+      }
+    ],
+    "price_rub": 30000,
+    "normal_price_usd": 30000,
+    "normal_price_rub": 30000
+  },
+  {
+    "id": 5,
+    "name": {
+      "ru": "Случайные Волны",
+      "en": "Случайные Волны"
+    },
+    "price": 350,
+    "price_usd": 35000,
+    "old_price": 700,
+    "discount": 50,
+    "image_url": "assets/Случайные Волны.webp",
+    "skins": [
+      {
+        "uuid": "skin-s899dchp",
+        "chance": 6.25,
+        "original_price": 2319,
+        "data": {
+          "id": 831282,
+          "uuid": "skin-s899dchp",
+          "image_url": "assets/skins/skin_831282.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Bayonet | Doppler",
+            "en": "Bayonet | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Bayonet",
+              "en": "Bayonet"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 2319,
+          "price_usd": 2319,
+          "price_rub": 2319
+        },
+        "skin": {
+          "id": 209661,
+          "uuid": "skin-s899dchp",
+          "image_url": "assets/skins/skin_831282.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Bayonet | Doppler",
+            "en": "Bayonet | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Bayonet",
+              "en": "Bayonet"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 2319,
+          "price_usd": 2319,
+          "price_rub": 2319
+        }
+      },
+      {
+        "uuid": "skin-2im2f5ow",
+        "chance": 6.25,
+        "original_price": 2915,
+        "data": {
+          "id": 366588,
+          "uuid": "skin-2im2f5ow",
+          "image_url": "assets/skins/skin_366588.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Bayonet | Gamma Doppler",
+            "en": "Bayonet | Gamma Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Bayonet",
+              "en": "Bayonet"
+            },
+            "skin_name": {
+              "ru": "Gamma Doppler",
+              "en": "Gamma Doppler"
+            }
+          },
+          "price": 2915,
+          "price_usd": 2915,
+          "price_rub": 2915
+        },
+        "skin": {
+          "id": 451266,
+          "uuid": "skin-2im2f5ow",
+          "image_url": "assets/skins/skin_366588.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Bayonet | Gamma Doppler",
+            "en": "Bayonet | Gamma Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Bayonet",
+              "en": "Bayonet"
+            },
+            "skin_name": {
+              "ru": "Gamma Doppler",
+              "en": "Gamma Doppler"
+            }
+          },
+          "price": 2915,
+          "price_usd": 2915,
+          "price_rub": 2915
+        }
+      },
+      {
+        "uuid": "skin-trzkqy3p",
+        "chance": 6.25,
+        "original_price": 2069,
+        "data": {
+          "id": 782154,
+          "uuid": "skin-trzkqy3p",
+          "image_url": "assets/skins/skin_782154.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Glock-18 | Gamma Doppler",
+            "en": "Glock-18 | Gamma Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Glock-18",
+              "en": "Glock-18"
+            },
+            "skin_name": {
+              "ru": "Gamma Doppler",
+              "en": "Gamma Doppler"
+            }
+          },
+          "price": 2069,
+          "price_usd": 2069,
+          "price_rub": 2069
+        },
+        "skin": {
+          "id": 715408,
+          "uuid": "skin-trzkqy3p",
+          "image_url": "assets/skins/skin_782154.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Glock-18 | Gamma Doppler",
+            "en": "Glock-18 | Gamma Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Glock-18",
+              "en": "Glock-18"
+            },
+            "skin_name": {
+              "ru": "Gamma Doppler",
+              "en": "Gamma Doppler"
+            }
+          },
+          "price": 2069,
+          "price_usd": 2069,
+          "price_rub": 2069
+        }
+      },
+      {
+        "uuid": "skin-g691ku4r",
+        "chance": 6.25,
+        "original_price": 4259,
+        "data": {
+          "id": 423476,
+          "uuid": "skin-g691ku4r",
+          "image_url": "assets/skins/skin_423476.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Butterfly Knife | Doppler",
+            "en": "Butterfly Knife | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Butterfly Knife",
+              "en": "Butterfly Knife"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 4259,
+          "price_usd": 4259,
+          "price_rub": 4259
+        },
+        "skin": {
+          "id": 601324,
+          "uuid": "skin-g691ku4r",
+          "image_url": "assets/skins/skin_423476.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Butterfly Knife | Doppler",
+            "en": "Butterfly Knife | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Butterfly Knife",
+              "en": "Butterfly Knife"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 4259,
+          "price_usd": 4259,
+          "price_rub": 4259
+        }
+      },
+      {
+        "uuid": "skin-i74z37l8",
+        "chance": 6.25,
+        "original_price": 2924,
+        "data": {
+          "id": 464426,
+          "uuid": "skin-i74z37l8",
+          "image_url": "assets/skins/skin_464426.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Butterfly Knife | Gamma Doppler",
+            "en": "Butterfly Knife | Gamma Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Butterfly Knife",
+              "en": "Butterfly Knife"
+            },
+            "skin_name": {
+              "ru": "Gamma Doppler",
+              "en": "Gamma Doppler"
+            }
+          },
+          "price": 2924,
+          "price_usd": 2924,
+          "price_rub": 2924
+        },
+        "skin": {
+          "id": 181201,
+          "uuid": "skin-i74z37l8",
+          "image_url": "assets/skins/skin_464426.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Butterfly Knife | Gamma Doppler",
+            "en": "Butterfly Knife | Gamma Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Butterfly Knife",
+              "en": "Butterfly Knife"
+            },
+            "skin_name": {
+              "ru": "Gamma Doppler",
+              "en": "Gamma Doppler"
+            }
+          },
+          "price": 2924,
+          "price_usd": 2924,
+          "price_rub": 2924
+        }
+      },
+      {
+        "uuid": "skin-tph2fg8e",
+        "chance": 6.25,
+        "original_price": 1335,
+        "data": {
+          "id": 219018,
+          "uuid": "skin-tph2fg8e",
+          "image_url": "assets/skins/skin_219018.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Survival Knife | Doppler",
+            "en": "Survival Knife | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Survival Knife",
+              "en": "Survival Knife"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 1335,
+          "price_usd": 1335,
+          "price_rub": 1335
+        },
+        "skin": {
+          "id": 585958,
+          "uuid": "skin-tph2fg8e",
+          "image_url": "assets/skins/skin_219018.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Survival Knife | Doppler",
+            "en": "Survival Knife | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Survival Knife",
+              "en": "Survival Knife"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 1335,
+          "price_usd": 1335,
+          "price_rub": 1335
+        }
+      },
+      {
+        "uuid": "skin-i8ov5eyf",
+        "chance": 6.25,
+        "original_price": 3236,
+        "data": {
+          "id": 200360,
+          "uuid": "skin-i8ov5eyf",
+          "image_url": "assets/skins/skin_200360.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Paracord Knife | Doppler",
+            "en": "Paracord Knife | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Paracord Knife",
+              "en": "Paracord Knife"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 3236,
+          "price_usd": 3236,
+          "price_rub": 3236
+        },
+        "skin": {
+          "id": 827270,
+          "uuid": "skin-i8ov5eyf",
+          "image_url": "assets/skins/skin_200360.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Paracord Knife | Doppler",
+            "en": "Paracord Knife | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Paracord Knife",
+              "en": "Paracord Knife"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 3236,
+          "price_usd": 3236,
+          "price_rub": 3236
+        }
+      },
+      {
+        "uuid": "skin-mtnm4dar",
+        "chance": 6.25,
+        "original_price": 2349,
+        "data": {
+          "id": 763808,
+          "uuid": "skin-mtnm4dar",
+          "image_url": "assets/skins/skin_763808.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Falchion Knife | Doppler",
+            "en": "Falchion Knife | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Falchion Knife",
+              "en": "Falchion Knife"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 2349,
+          "price_usd": 2349,
+          "price_rub": 2349
+        },
+        "skin": {
+          "id": 415237,
+          "uuid": "skin-mtnm4dar",
+          "image_url": "assets/skins/skin_763808.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Falchion Knife | Doppler",
+            "en": "Falchion Knife | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Falchion Knife",
+              "en": "Falchion Knife"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 2349,
+          "price_usd": 2349,
+          "price_rub": 2349
+        }
+      },
+      {
+        "uuid": "skin-0zbjyzyl",
+        "chance": 6.25,
+        "original_price": 3808,
+        "data": {
+          "id": 630751,
+          "uuid": "skin-0zbjyzyl",
+          "image_url": "assets/skins/skin_630751.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Falchion Knife | Gamma Doppler",
+            "en": "Falchion Knife | Gamma Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Falchion Knife",
+              "en": "Falchion Knife"
+            },
+            "skin_name": {
+              "ru": "Gamma Doppler",
+              "en": "Gamma Doppler"
+            }
+          },
+          "price": 3808,
+          "price_usd": 3808,
+          "price_rub": 3808
+        },
+        "skin": {
+          "id": 244009,
+          "uuid": "skin-0zbjyzyl",
+          "image_url": "assets/skins/skin_630751.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Falchion Knife | Gamma Doppler",
+            "en": "Falchion Knife | Gamma Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Falchion Knife",
+              "en": "Falchion Knife"
+            },
+            "skin_name": {
+              "ru": "Gamma Doppler",
+              "en": "Gamma Doppler"
+            }
+          },
+          "price": 3808,
+          "price_usd": 3808,
+          "price_rub": 3808
+        }
+      },
+      {
+        "uuid": "skin-wbpewco3",
+        "chance": 6.25,
+        "original_price": 823,
+        "data": {
+          "id": 714746,
+          "uuid": "skin-wbpewco3",
+          "image_url": "assets/skins/skin_714746.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Flip Knife | Doppler",
+            "en": "Flip Knife | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Flip Knife",
+              "en": "Flip Knife"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 823,
+          "price_usd": 823,
+          "price_rub": 823
+        },
+        "skin": {
+          "id": 771353,
+          "uuid": "skin-wbpewco3",
+          "image_url": "assets/skins/skin_714746.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Flip Knife | Doppler",
+            "en": "Flip Knife | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Flip Knife",
+              "en": "Flip Knife"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 823,
+          "price_usd": 823,
+          "price_rub": 823
+        }
+      },
+      {
+        "uuid": "skin-rjqim2qy",
+        "chance": 6.25,
+        "original_price": 2520,
+        "data": {
+          "id": 838842,
+          "uuid": "skin-rjqim2qy",
+          "image_url": "assets/skins/skin_838842.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Flip Knife | Gamma Doppler",
+            "en": "Flip Knife | Gamma Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Flip Knife",
+              "en": "Flip Knife"
+            },
+            "skin_name": {
+              "ru": "Gamma Doppler",
+              "en": "Gamma Doppler"
+            }
+          },
+          "price": 2520,
+          "price_usd": 2520,
+          "price_rub": 2520
+        },
+        "skin": {
+          "id": 567946,
+          "uuid": "skin-rjqim2qy",
+          "image_url": "assets/skins/skin_838842.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Flip Knife | Gamma Doppler",
+            "en": "Flip Knife | Gamma Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Flip Knife",
+              "en": "Flip Knife"
+            },
+            "skin_name": {
+              "ru": "Gamma Doppler",
+              "en": "Gamma Doppler"
+            }
+          },
+          "price": 2520,
+          "price_usd": 2520,
+          "price_rub": 2520
+        }
+      },
+      {
+        "uuid": "skin-73lbv68p",
+        "chance": 6.25,
+        "original_price": 866,
+        "data": {
+          "id": 772881,
+          "uuid": "skin-73lbv68p",
+          "image_url": "assets/skins/skin_772881.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Gut Knife | Doppler",
+            "en": "Gut Knife | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Gut Knife",
+              "en": "Gut Knife"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 866,
+          "price_usd": 866,
+          "price_rub": 866
+        },
+        "skin": {
+          "id": 881945,
+          "uuid": "skin-73lbv68p",
+          "image_url": "assets/skins/skin_772881.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Gut Knife | Doppler",
+            "en": "Gut Knife | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Gut Knife",
+              "en": "Gut Knife"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 866,
+          "price_usd": 866,
+          "price_rub": 866
+        }
+      },
+      {
+        "uuid": "skin-ac0kgpnh",
+        "chance": 6.25,
+        "original_price": 4734,
+        "data": {
+          "id": 234012,
+          "uuid": "skin-ac0kgpnh",
+          "image_url": "assets/skins/skin_234012.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Gut Knife | Gamma Doppler",
+            "en": "Gut Knife | Gamma Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Gut Knife",
+              "en": "Gut Knife"
+            },
+            "skin_name": {
+              "ru": "Gamma Doppler",
+              "en": "Gamma Doppler"
+            }
+          },
+          "price": 4734,
+          "price_usd": 4734,
+          "price_rub": 4734
+        },
+        "skin": {
+          "id": 279096,
+          "uuid": "skin-ac0kgpnh",
+          "image_url": "assets/skins/skin_234012.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Gut Knife | Gamma Doppler",
+            "en": "Gut Knife | Gamma Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Gut Knife",
+              "en": "Gut Knife"
+            },
+            "skin_name": {
+              "ru": "Gamma Doppler",
+              "en": "Gamma Doppler"
+            }
+          },
+          "price": 4734,
+          "price_usd": 4734,
+          "price_rub": 4734
+        }
+      },
+      {
+        "uuid": "skin-88ug51fi",
+        "chance": 6.25,
+        "original_price": 1790,
+        "data": {
+          "id": 816875,
+          "uuid": "skin-88ug51fi",
+          "image_url": "assets/skins/skin_816875.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Navaja Knife | Doppler",
+            "en": "Navaja Knife | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Navaja Knife",
+              "en": "Navaja Knife"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 1790,
+          "price_usd": 1790,
+          "price_rub": 1790
+        },
+        "skin": {
+          "id": 766905,
+          "uuid": "skin-88ug51fi",
+          "image_url": "assets/skins/skin_816875.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Navaja Knife | Doppler",
+            "en": "Navaja Knife | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Navaja Knife",
+              "en": "Navaja Knife"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 1790,
+          "price_usd": 1790,
+          "price_rub": 1790
+        }
+      },
+      {
+        "uuid": "skin-wk7e0i97",
+        "chance": 6.25,
+        "original_price": 2018,
+        "data": {
+          "id": 407716,
+          "uuid": "skin-wk7e0i97",
+          "image_url": "assets/skins/skin_407716.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Karambit | Doppler",
+            "en": "Karambit | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Karambit",
+              "en": "Karambit"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 2018,
+          "price_usd": 2018,
+          "price_rub": 2018
+        },
+        "skin": {
+          "id": 323550,
+          "uuid": "skin-wk7e0i97",
+          "image_url": "assets/skins/skin_407716.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Karambit | Doppler",
+            "en": "Karambit | Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Karambit",
+              "en": "Karambit"
+            },
+            "skin_name": {
+              "ru": "Doppler",
+              "en": "Doppler"
+            }
+          },
+          "price": 2018,
+          "price_usd": 2018,
+          "price_rub": 2018
+        }
+      },
+      {
+        "uuid": "skin-bg68z64c",
+        "chance": 6.25,
+        "original_price": 3982,
+        "data": {
+          "id": 837311,
+          "uuid": "skin-bg68z64c",
+          "image_url": "assets/skins/skin_837311.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Karambit | Gamma Doppler",
+            "en": "Karambit | Gamma Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Karambit",
+              "en": "Karambit"
+            },
+            "skin_name": {
+              "ru": "Gamma Doppler",
+              "en": "Gamma Doppler"
+            }
+          },
+          "price": 3982,
+          "price_usd": 3982,
+          "price_rub": 3982
+        },
+        "skin": {
+          "id": 739254,
+          "uuid": "skin-bg68z64c",
+          "image_url": "assets/skins/skin_837311.png",
+          "rarity": "rarity_ancient_weapon",
+          "name": {
+            "ru": "Karambit | Gamma Doppler",
+            "en": "Karambit | Gamma Doppler"
+          },
+          "formatted_data": {
+            "weapon_name": {
+              "ru": "Karambit",
+              "en": "Karambit"
+            },
+            "skin_name": {
+              "ru": "Gamma Doppler",
+              "en": "Gamma Doppler"
+            }
+          },
+          "price": 3982,
+          "price_usd": 3982,
+          "price_rub": 3982
+        }
+      }
+    ],
+    "price_rub": 35000,
+    "normal_price_usd": 35000,
+    "normal_price_rub": 35000
+  }
+]

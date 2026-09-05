@@ -1,0 +1,8 @@
+{
+  "name": "Musor Drop",
+  "description": "CS2 case opening simulator with skins, containers, and live drop tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

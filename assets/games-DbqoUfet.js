@@ -1,0 +1,1 @@
+import{mn as e,un as t}from"./chakra-CyEqUBJ-.js";import{n}from"./index-WW-_9Q_f.js";var r=e();function i(){return(0,r.jsx)(t,{mt:8,children:(0,r.jsx)(n,{})})}export{i as default};
